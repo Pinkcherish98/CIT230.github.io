@@ -37,8 +37,8 @@ header, footer, footer a {
 }
 
 header img {
-    width:450px;
-    height: 600px;
+    width:20%;
+    height: auto;
     box-shadow: 5px 5px 5px lightcoral;
     border-radius: 15px;
     float: right;
