@@ -37,6 +37,13 @@ header, footer, footer a {
 }
 
 header img {
+    width:45px;
+    height: 60px;
+    box-shadow: 8px 8px 8px lightcoral;
+    border-radius: 15px;
+    float: right;
+}
+#rightCol {
     padding-right: 10em;
     position: relative;
     background-color: lightcoral;
