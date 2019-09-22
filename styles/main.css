@@ -39,18 +39,9 @@ header, footer, footer a {
 header img {
     width:450px;
     height: 600px;
-    box-shadow: 8px 8px 8px lightcoral;
+    box-shadow: 5px 5px 5px lightcoral;
     border-radius: 15px;
     float: right;
-}
-#rightCol {
-    padding-right: 10em;
-    position: relative;
-    background-color: lightcoral;
-    border: grey 1px solid;
-    border-radius: 15px;
-    width: 165px;
-    box-shadow: 5px 5px 5px lightcoral;
 }
 
 footer {
