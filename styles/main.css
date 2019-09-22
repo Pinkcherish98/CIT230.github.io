@@ -37,16 +37,13 @@ header, footer, footer a {
 }
 
 header img {
-    width:45px;
-    height: 60px;
-    box-shadow: 8px 8px 8px lightcoral;
+    padding-right: 10em;
+    position: relative;
+    background-color: lightcoral;
+    border: grey 1px solid;
     border-radius: 15px;
-    float: right;
-}
-#rightCol {
-    max-width: 30%;
-    flex: 1 0 15em;
-    margin: .5em;
+    width: 165px;
+    box-shadow: 5px 5px 5px lightcoral;
 }
 
 footer {
