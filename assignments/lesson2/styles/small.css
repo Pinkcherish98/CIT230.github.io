@@ -2,3 +2,126 @@ img {
     width: 300px;
 
 }
+#content{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Papyrus,fantasy;
+    background-color:lightsalmon;
+  }
+  h2{
+      color: white;
+    text-align: left;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 1em;
+    padding: 10px;
+    line-height: 1em;
+  }
+  h3, h4, h5, h6 {
+    color: white;
+    text-align: center;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 2em;
+    padding: 10px;
+    line-height: 1em;
+  }
+  
+  p{
+    padding: 10px;
+    font-size: 23px;
+    line-height: 1.3em;
+    color: #00670e;
+  }
+  .leftcol, .rightcol{
+    max-width:48%;
+    flex: 1 0 15em;
+    margin: .5em;
+  }
+  
+  nav{
+    background-color: indianred;
+    padding: 1em;
+    margin-top: -120px;
+    padding-left: 175px;
+  }
+  nav li{
+    font-family:Papyrus,fantasy;
+    font-size: 1.5em;
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul{
+    margin:0;
+  }
+  nav a{
+    padding: 1em .2em;
+    line-height: 3em;
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover{
+    color: black;
+    box-shadow: 0px 6px 5px lightcoral;
+    text-decoration: none;
+  }
+  #Frow, #Frow-Left, #Lrow-Left, footer{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #Frow-Left {
+    background-color: darksalmon;
+    color: #436d70;
+  }
+  
+  .pspec{
+    font-size: 22px;
+    font-style: italic;
+    color: #00670e;
+  }
+  footer{
+    background-color: white;
+    font-color: salmon;
+  }
+  #logo {
+    padding-left: .5em;
+    position:relative;
+    background-color: indianred;
+    border: grey 1px solid;
+    border-radius: 15px;
+    width: 165px;
+    box-shadow: 5px 5px 5px lightcoral;
+  }
+  #banner {
+    width: 100%;
+  }
+  #img1, #img2, #img3{
+    width: 450px;
+    height: 600px;
+    box-shadow: 8px 8px 8px lightcoral;
+    border-radius: 15px;
+  }
+  #info {
+    color: #495d60;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .socialmedia {
+    box-shadow: 8px 8px 8px lightcoral;
+    padding: 25px;
+    float:right;
+  }
+  .zoomin img{
+    width: 75px;
+    height:75px;
+    -webkit-trnsition: all 2s ease;
+    -moz-trnasition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .zoomin img:hover{
+    width:100px;
+    height: 100px;
+    box-shadow: 8px 8px 8px lightcoral;
+  }
