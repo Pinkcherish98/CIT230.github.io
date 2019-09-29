@@ -1,8 +1,4 @@
 @media only screen and (min-width: 32.5 em) {
-    img {
-        width: 500px;
-    
-    }
     #content{
         max-width: 960px;
         margin: 0 auto;
