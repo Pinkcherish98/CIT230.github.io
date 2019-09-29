@@ -81,18 +81,6 @@
         background-color: white;
         color: salmon;
       }
-      #logo {
-        padding-left: .5em;
-        position:relative;
-        background-color: indianred;
-        border: grey 1px solid;
-        border-radius: 15px;
-        width: 165px;
-        box-shadow: 5px 5px 5px lightcoral;
-      }
-      #banner {
-        width: 100%;
-      }
       #img1, #img2, #img3{
         width: 450px;
         height: 600px;
