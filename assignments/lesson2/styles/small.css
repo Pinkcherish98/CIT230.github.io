@@ -81,8 +81,8 @@
     color: salmon;
   }
   #img1, #img2, #img3{
-    max-width: 60%;
-    height: 60%;
+    max-width: 300px;
+    height: 400px;
     box-shadow: 8px 8px 8px lightcoral;
     border-radius: 15px;
   }
