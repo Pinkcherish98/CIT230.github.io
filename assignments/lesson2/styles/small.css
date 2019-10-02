@@ -4,7 +4,7 @@
     font-family: Papyrus,fantasy;
     background-color:lightsalmon;
   }
-  h2{
+  h1, h2, h4, h6{
     color: white;
     text-align: left;
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
@@ -12,7 +12,7 @@
     padding: 10px;
     line-height: 1em;
   }
-  h3, h4, h5, h6 {
+  h3, h5 {
     color: white;
     text-align: center;
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
