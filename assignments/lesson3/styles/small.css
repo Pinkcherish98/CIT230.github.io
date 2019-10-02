@@ -2,6 +2,9 @@ li {
     float: left;
     margin: 10px;
 }
+li a{
+    text-decoration: none;
+}
 
 .highlight{
     font-weight: bold;
