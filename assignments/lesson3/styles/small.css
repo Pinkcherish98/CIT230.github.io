@@ -1,6 +1,6 @@
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 article {
     border: 1px dotted blue;
