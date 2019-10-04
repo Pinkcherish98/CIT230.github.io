@@ -1,4 +1,11 @@
-body{
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article {
+    border: 1px dotted blue;
+}
+body {
     padding: 0;
     margin: 0;
 }
