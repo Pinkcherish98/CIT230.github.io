@@ -11,6 +11,13 @@ li {
 li a{
     text-decoration: none;
 }
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* class selector*/
+
 .active{
     background-color:yellow;
     font-weight: bold; 
