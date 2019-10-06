@@ -147,20 +147,23 @@
     padding: 10px;
   }
   .socialmedia {
-    box-shadow: 8px 8px 8px rgb(191, 225,252);
+    box-shadow: 6px 6px 6px rgb(191, 225,252);
     padding: 25px;
     float:right;
   }
   .zoomin img{
-    width: 75px;
-    height:75px;
+    width: 45px;
+    height:45px;
     -webkit-trnsition: all 2s ease;
     -moz-trnasition: all 2s ease;
     -ms-transition: all 2s ease;
     transition: all 2s ease;
   }
   .zoomin img:hover{
-    width:100px;
-    height: 100px;
+    width:80px;
+    height: 80px;
     box-shadow: 8px 8px 8px rgb(191, 225,252);
+  }
+  script {
+    font-size: x-small;
   }
