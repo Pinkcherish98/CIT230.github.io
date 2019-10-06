@@ -3,27 +3,24 @@
     max-width: 960px;
     margin: 0 auto;
     font-family: Papyrus,fantasy;
-    background-color:lightsalmon;
+    background-color:rgb(170, 213, 248);
   }
   h1, h2, h3, h4, h5, h6 {
     color: white;
     text-align: center;
-    font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     font-size: 2em;
     padding: 10px;
     line-height: 1em;
   }
-  h1 {
-    display: grid;
-}
   
   p{
     padding: 10px;
     font-size: 23px;
     line-height: 1.3em;
-    color: black;
+    color: lightgoldenrodyellow;
   }
-  .leftcol, .rightcol{
+   .leftcol, .rightcol{
     max-width:48%;
     flex: 1 0 15em;
     margin: .5em;
@@ -55,8 +52,8 @@
 
 }
 .grid-item {
-    background-color: lightpink;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgb(50, 0, 70);
+    border: 1px solid rgb(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 15px;
     text-align: center;
@@ -66,13 +63,13 @@
     flex-direction: row;
 }
   nav{
-    background-color: indianred;
+    background-color: rgb(74, 127, );
     padding: 1em;
     margin-top: -120px;
     padding-left: 175px;
   }
   nav li{
-    font-family: 'Indie Flower', cursive;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;  
     font-size: 1.5em;
     display: inline-block;
     list-style-type: none;
@@ -88,7 +85,7 @@
   }
   nav a:hover{
     color: black;
-    box-shadow: 0px 6px 5px lightcoral;
+    box-shadow: 0px 6px 5px rgb(191, 225,252);
     text-decoration: none;
   }
   #Frow, #Frow-Left, footer{
@@ -99,7 +96,7 @@
   }
   
   #Frow-Left {
-    background-color: darksalmon;
+    background-color: rgb(1, 58, 58);
     color: #436d70;
   }
   
@@ -109,30 +106,33 @@
   .pspec{
     font-size: 22px;
     font-style: italic;
-    color: #00670e;
+    color: lightgoldenrodyellow;
   }
   footer{
-    background-color: white;
-    color: salmon;
+    background-color: rgb(86, 99,109);
+    color: rgb(86, 99, 109);
   }
   img{
     max-width: 100%;
   }
+  #Pf{
+    width: 100%;
+  }
   #logo {
     padding-left: .5em;
     position:relative;
-    background-color: indianred;
+    background-color: rgb(171, 209, 230);
     border: grey 1px solid;
     border-radius: 15px;
     width: 165px;
-    box-shadow: 5px 5px 5px lightcoral;
+    box-shadow: 5px 5px 5px rgb(191, 225,252);
   }
   #banner {
     width: 100%;
   }
   #img1, #img2{
     width: 450ox;
-    box-shadow: 8px 8px 8px lightcoral;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
     border-radius: 15px;
   }
   #info {
@@ -141,7 +141,7 @@
     padding: 10px;
   }
   .socialmedia {
-    box-shadow: 8px 8px 8px lightcoral;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
     padding: 25px;
     float:right;
   }
@@ -156,5 +156,5 @@
   .zoomin img:hover{
     width:100px;
     height: 100px;
-    box-shadow: 8px 8px 8px lightcoral;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
   }
