@@ -1,4 +1,13 @@
 
+.Bpic {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("SeoulSKY.jpg");
+  height: 155px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 #content{
     max-width: 960px;
     margin: 0 auto;
