@@ -8,24 +8,63 @@
   h1, h2, h3, h4, h5, h6 {
     color: white;
     text-align: center;
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
     font-size: 2em;
     padding: 10px;
     line-height: 1em;
   }
+  h1 {
+    display: grid;
+}
   
   p{
     padding: 10px;
     font-size: 23px;
     line-height: 1.3em;
-    color: #00670e;
+    color: black;
   }
   .leftcol, .rightcol{
     max-width:48%;
     flex: 1 0 15em;
     margin: .5em;
   }
-  
+  #change{
+      font-style: italic;
+      text-align: left;
+  }
+  .seNa {
+    background-color: lightgray;
+    width: 250px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+.personas {
+    background-color: lightgray;
+    width: 250px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+.Taudience{
+    background-color: lightgray;
+    width: 250px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+
+}
+.grid-item {
+    background-color: lightpink;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+}
   nav{
     background-color: indianred;
     padding: 1em;
@@ -33,7 +72,7 @@
     padding-left: 175px;
   }
   nav li{
-    font-family:Papyrus,fantasy;
+    font-family: 'Indie Flower', cursive;
     font-size: 1.5em;
     display: inline-block;
     list-style-type: none;
