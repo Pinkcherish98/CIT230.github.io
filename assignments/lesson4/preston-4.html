@@ -1,12 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accurate Weather Forecast</title>
+<meta name="description" content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
 </head>
+<body> 
+<header>
+<img src="images/weatherlogo.png" alt="weather logo" class="logo">
+<div class="headertext">
+<h1>Today's Weather</h1>
+<div class="subheading">The most accurate weather source in the county.</div>
+</div>
+<div class="currentConditions">
+<img src="https://cdn.glitch.com/16c9cbc7-f039-43c6-9418-fb4796f3f873%2F565f5a4629c30.image.jpg?1539534632694" alt="Current condition weather icon">
+<p>Sunny</p>
+</div>
+</header>
+<nav>
+    <button type="button"
+        onclick="toggleMenu()">&#9776;</button>
+    <ul class="navigation">
+       
+    <li><a href="deafult.asp" title="Home">Home</a></li>
+<li><a href ="preston.asp" title="Preston">Preston</a></li>
+<li><a href ="sodaspring.asp" title="Soda Springs">Soda Springs</a></li>
+<li><a href="fishhaven.asp" title="Fish Haven">Fish Haven</a></li>
+<li><a href="stormcenter.asp" title="Storm Center">Storm Center</a></li>
+<li><a href="gallery.asp" title="Gallery">Gallery</a></li></ul>
+</nav>
+
+<main>
+<br><h2>Town Name</h2>
+<section>
+    <div class="heroimage"><img src="images/franklin-original.jpg" sizes="100vw" srcset="images/franklin-small.jpg 625w, images/franklin-L.jpg 620w"
+         alt="franklin-original Image"></div>
+
+<aside class="weatheraside">
+
+ 
 <body>
-    
+   <div class="weathersum">
+   <h3>Weather Summary 
+   <p>Currently: Sunny</p>
+   <p>Temperature: 76 &#8457;</p>
+   <p>Humidity: 69 %</p>
+   <p>Precipitation: 0 inches</p>
+   <p>Wind Speed: 5 mph</p>
+</div>
+</aside>
+                        
+</body>            
+</section>        
+
+<section class="sec2">
+        <div class="Summary">
+<h3>5 Day Forecast</h3>
+<p>Ex graeci audiam deterruisset sea. Eu velit maiorum prodesset mel, per no hinc saepe. Semper aperiam imperdiet ad nam. Cum vitae forensibus honestatis ex, ut modo meis offendit nam, partem lucilius consetetur ius ea.</p>
+</div>
+</section>
+<section class="sec3">
+    <body>
+        <div class="article">
+    </body>
+<img src="images/article.jpg" alt="Article Image" class="Arcimg">
+<div class="Arc">
+ <h3>Article</h3>
+<p>Lorem ipsum dolor sit amet, saepe urbanitas conceptam his eu, ut tantas iracundia deterruisset usu. Mea id erat verear persequeris, latine ceteros reprehendunt pri ea, mel nisl labore sanctus ex. Duo viderer impedit prodesset et. Vim habeo semper te. Illud molestie qualisque ad mel, nam odio vidit virtute id. Nam ea primis omnesque, nec an solum eirmod, cu sed paulo gloriatur. Prima nullam ex sea. Doming insolens ad sed, id deleniti delicata vim. Dicit ridens ex duo, usu ut odio luptatum.</p>  
+</div>
+
+</div>
+</section>
+</main>
+<footer>
+<img src="images/map.jpg" alt="map">
+<p>contact information</p>
+<ul class="footnav">
+<li>&copy; Jenny Min</li>
+<li><a href="#">Terms of Use</a></li>
+<li><span id="currentDate"></span> </li>
+
+<script src="scripts/menu.js"></script>
+<script src="scripts/currentdate.js"></script>
+</footer>
 </body>
 </html>
