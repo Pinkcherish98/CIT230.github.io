@@ -38,6 +38,7 @@
         body {
             background-color: rgb(170, 213, 248);
             font-family: Papyrus,fantasy;
+            font-size: 20px;
         
         }
         .logo{
@@ -74,6 +75,7 @@
         }
         .Arc{
             width: 50%;
+            font-size: 20px;
         }
         .Arcimg {
             float: right;
@@ -195,7 +197,8 @@
         }
         
         .hero {
-            width: 95%;
+            width: auto;
+            height: auto;
         }
         .townname {
             text-align: center;
@@ -207,7 +210,7 @@
         }
         .Summary{
         display: inline-block;
-        
+        font-size: 20px;
              
         }
 
