@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Accurate Weather Forecast</title>
+<title>Blue Moon's Weather </title>
 <meta name="description" content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/small.css">
@@ -25,7 +25,7 @@
 </header>
 <nav>
     <button type="button"
-        onclick="toggleMenu()">&#9776;</button>
+        onclick="toggleMenu()">&#9776; Menu</button>
     <ul class="navigation">
        
     <li><a href="home.html" title="Home">Home</a></li>
@@ -39,7 +39,7 @@
 <main>
 <br><h2>Town Name</h2>
 <section>
-    <div class="heroimage"><img src="images/franklin-original.jpg" sizes="100vw" srcset="images/franklin-small.jpg 625w, images/franklin-L.jpg 620w"
+    <div class="heroimage"><img src="images/hero.jpg" sizes="100vw" srcset="images/hero.jpg 1500w, images/hero.jpg 1000w"
          alt="franklin-original Image"></div>
 
 <aside class="weatheraside">
@@ -82,13 +82,9 @@
 <img src="images/map.jpg" alt="map">
 <p>contact information</p>
 <ul class="footnav">
-<li>&copy; Jenny Min</li>
-<li><a href="#">Terms of Use</a></li>
-<li><span id="currentDate"></span> </li>
+    <p>&copy;<span id="d"></span> Blue Moon's Weather |Jenny Min </p>
 
-<script src="scripts/menu.js"></script>
-<script src="scripts/currentdate.js"></script>
-<script src="scripts/preston-4.js"></script>
 </footer>
+<script src="scripts/preston-4.js"></script>
 </body>
 </html>
