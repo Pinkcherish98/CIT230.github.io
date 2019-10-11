@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #399999;
-    font-family: 'Oswald', sans-serif;
+    background-color: rgb(170, 213, 248);
+    font-family: Papyrus,fantasy;
 
 }
 #logo{
@@ -38,15 +38,16 @@ text-shadow: 3px 2px rgb(14, 5, 1)
 .ht h1 {
     display: flex;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     font-size: 30px;
     margin-top: 20px;
 }
 
 .sh h2 {
-    font-size: 1.3rem;
+    font-size: 2em;
+    padding: 10px;
 color: #fa7a02;
-font-family: 'Oswald', sans-serif;
+font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 
 }
 .weatheraside{ 
@@ -69,13 +70,13 @@ font-family: 'Oswald', sans-serif;
 }
 .cc {
     display: inline-block;
-margin: 1rem 0 1rem 5rem;
-padding: 1.0rem;
-vertical-align: middle;
-color: #FF5A09 ;
-background-color: rgb(41, 39, 39);
-border: 5px outset rgb(72, 72, 73);
-font-size: 1.2rem;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.0rem;
+    vertical-align: middle;
+    color: #FF5A09 ;
+    background-color: rgb(41, 39, 39);
+    border: 5px outset rgb(72, 72, 73);
+    font-size: 1.2rem;
 }
 
 .cc p {
@@ -99,7 +100,7 @@ nav {
     padding:.75rem;
     text-align: center;
     text-decoration: none;
-    background-color: #000;
+    background-color: rgb(170, 213, 248);
 }
 .navigation a:hover {
     color: #000;
@@ -177,7 +178,7 @@ aside{
 }
 .townname {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     background-color: #868282;
     font-size: 20px;
     margin-top: -10px;
@@ -188,25 +189,34 @@ display: none;
 
      
 }
-
-footer {
-    text-align: center;
-    padding-top: 5%;
-    background-color: #868282;
-}
-
-footer p {
+#info {
+    color: #495d60;
+    font-size: 20px;
     padding: 10px;
-} 
-.footnav{
-    background-color: black;
-    color: white;
-    padding: 4px;
-}
-.footnav li{
-    list-style: none; 
-    display: inline-block;
-}
-.footnav li a:link { 
-    color: white;
-}
+  }
+  .socialmedia {
+    box-shadow: 6px 6px 6px rgb(191, 225,252);
+    padding: 25px;
+    float:right;
+  }
+  .zoomin img{
+    width: 45px;
+    height:45px;
+    -webkit-trnsition: all 2s ease;
+    -moz-trnasition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .zoomin img:hover{
+    width:80px;
+    height: 80px;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
+  }
+  script {
+    font-size: x-small;
+  }
+#info {
+    color: #495d60;
+    font-size: 20px;
+    padding: 10px;
+  }

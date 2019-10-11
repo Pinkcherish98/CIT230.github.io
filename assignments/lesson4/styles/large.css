@@ -36,7 +36,7 @@
         }
         
         body {
-            background-color: #399999;
+            background-color: rgb(170, 213, 248);
             font-family: 'Oswald', sans-serif;
         
         }
@@ -128,7 +128,7 @@
         }
         
         nav {
-            background-color: #000;
+            background-color: rgb(170, 213, 248);
         }
         
         .navbar {
@@ -210,13 +210,7 @@
         
              
         }
-        
-        .m1 {
-            background-image: url(https://adamhawkins99.github.io/assignments/lesson-5/images/preston.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        
+
         .bgc {
             background-color: #868282;
             max-width: 200px;
