@@ -14,33 +14,8 @@
         padding: 0%;
         padding-top: 1%;
     }
-    .navigation{
-        list-style: none;
-        text-align: center;
-    }
-    .navigation li {
-        display: inline-block;
-    }
-    .navigation a{
-        display: block;
-        color: #fff;
-        padding:.75rem;
-        text-align: center;
-        text-decoration: none;
-        background-color: #000;
-    }
-    .navigation a:hover {
-        color: #000;
-        background-color: #fff;
-        font-weight: 700;
-    }
-    
     nav li{
         display: inline-block;
-        font-size: 1rem;
-    }
-    button{
-        display: none;
     }
     .Summary{
         display: inline-block;
@@ -153,7 +128,7 @@
         }
         
         nav {
-            background-color: black;
+            background-color: #000;
         }
         
         .navbar {

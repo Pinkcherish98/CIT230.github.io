@@ -9,9 +9,14 @@ body {
     font-family: 'Oswald', sans-serif;
 
 }
-.logo{
+#logo{
     width: 14%;
     margin: 4%;
+    background-color: rgb(171, 209, 230);
+    border: grey 1px solid;
+    border-radius: 15px;
+    width: 165px;
+    box-shadow: 5px 5px 5px rgb(191, 225,252);
 }
 .headertext {
     float: right;
@@ -28,13 +33,6 @@ body {
     color: #FF5A09;
 text-shadow: 3px 2px rgb(14, 5, 1)
 }
-
-.img1, .img2 {
-    max-width: 60px;
-    height: 60px;
-
-}
-
 
 
 .ht h1 {
@@ -85,7 +83,7 @@ font-size: 1.2rem;
 }
 
 nav {
-    background-color: #393939;
+    background-color: #000;
 }
 .navigation{
     list-style: none;
@@ -189,97 +187,6 @@ padding: 10px;
 display: none;
 
      
-}
-
-.m1 {
-    background-image: url(https://adamhawkins99.github.io/assignments/lesson-5/images/preston.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bgc {
-    background-color: #868282;
-    max-width: 200px;
-    margin-left: 10px;
-}
-
-.wd {
-    margin: 20px;
-    height: 170px;
-    max-width: 160px;
-}
-
-.label {
-    line-height: 20px;
-}
-
-.m2 {
-    display: none;
-}
-
-.m2 section {
-    background-color: #868282;
-}
-
-.forecast h3 {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-}
-
-table {
-    margin: 0 auto;
-    line-height: 20px;
-    border-spacing: 10px;
-}
-
-.m3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column-reverse;
-    margin-top: 10px;
-    background-color: #868282;
-}
-
-.m3 article {
-    max-width: 550px;
-}
-
-.m3 article p {
-    line-height: 25px;
-    margin: 20px;
-}
-
-.artimg img {
-    max-width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.m4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 15px;
-    background-color: #868282;
-}
-
-.m4 section {
-    max-width: 550px;
-}
-
-.m4 section p {
-    line-height: 25px;
-    margin: 20px;
-}
-
-.map img {
-    max-width: 250px;
-    margin-top: 20px;
 }
 
 footer {
