@@ -84,7 +84,7 @@ font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monosp
 }
 
 nav {
-    background-color: #000;
+    background-color:rgb(170, 213, 248);
 }
 .navigation{
     list-style: none;
@@ -92,7 +92,7 @@ nav {
 }
 
 .navigation li{
-    display:none;
+    display: none;
 }
 .navigation a{
     display: block;
@@ -103,7 +103,7 @@ nav {
     background-color: rgb(170, 213, 248);
 }
 .navigation a:hover {
-    color: #000;
+    color: rgb(170, 213, 248);
     background-color: #fff;
     font-weight: 700;
 }
@@ -185,10 +185,12 @@ aside{
 padding: 10px;
 }
 .Summary{
-display: none;
-
-     
+display: none;     
 }
+footer{
+    background-color: rgb(86, 99,109);
+    color: rgb(86, 99, 109);
+  }
 #info {
     color: #495d60;
     font-size: 20px;

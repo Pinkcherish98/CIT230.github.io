@@ -37,7 +37,7 @@
         
         body {
             background-color: rgb(170, 213, 248);
-            font-family: 'Oswald', sans-serif;
+            font-family: Papyrus,fantasy;
         
         }
         .logo{
@@ -82,7 +82,7 @@
         .ht h1 {
             display: flex;
             justify-content: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             font-size: 30px;
             margin-top: 20px;
         }
@@ -90,7 +90,7 @@
         .sh h2 {
             font-size: 1.3rem;
         color: #fa7a02;
-        font-family: 'Oswald', sans-serif;
+        font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
         
         }
         .weatheraside{ 
@@ -199,7 +199,7 @@
         }
         .townname {
             text-align: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             background-color: #868282;
             font-size: 20px;
             margin-top: -10px;
@@ -237,7 +237,7 @@
         
         .forecast h3 {
             text-align: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             font-size: 20px;
         }
         
@@ -300,7 +300,7 @@
         footer {
             text-align: left;
             padding-top: 5%;
-            background-color: #868282;
+            background-color: rgb(86, 99,109);
         }
         
         footer p {
@@ -309,7 +309,7 @@
             float: right;
         } 
         .footnav{
-            background-color: black;
+            background-color: rgb(86, 99,109);
             color: white;
             padding: 4px;
         }
