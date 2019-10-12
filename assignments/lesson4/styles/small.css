@@ -137,6 +137,9 @@ a {
    
 
 }
+a:hover {
+    background-color: #88a3ae;
+}
 /*
 .hamburger {
     display: block;
