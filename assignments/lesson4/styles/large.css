@@ -14,8 +14,33 @@
         padding: 0%;
         padding-top: 1%;
     }
+    .navigation{
+        list-style: none;
+        text-align: center;
+    }
+    .navigation li {
+        display: inline-block;
+    }
+    .navigation a{
+        display: block;
+        color: #fff;
+        padding:.75rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: #000;
+    }
+    .navigation a:hover {
+        color: #000;
+        background-color: #fff;
+        font-weight: 700;
+    }
+    
     nav li{
         display: inline-block;
+        font-size: 1rem;
+    }
+    button{
+        display: none;
     }
     .Summary{
         display: inline-block;
@@ -36,9 +61,8 @@
         }
         
         body {
-            background-color: rgb(170, 213, 248);
-            font-family: Papyrus,fantasy;
-            font-size: 20px;
+            background-color: #399999;
+            font-family: 'Oswald', sans-serif;
         
         }
         .logo{
@@ -55,7 +79,6 @@
         }
         .currentConditions img{
             width: 35%;
-            margin: 50px;
     
         }
         .wrapperhead {
@@ -76,7 +99,6 @@
         }
         .Arc{
             width: 50%;
-            font-size: 20px;
         }
         .Arcimg {
             float: right;
@@ -85,7 +107,7 @@
         .ht h1 {
             display: flex;
             justify-content: center;
-            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+            font-family: 'Oswald', sans-serif;
             font-size: 30px;
             margin-top: 20px;
         }
@@ -93,7 +115,7 @@
         .sh h2 {
             font-size: 1.3rem;
         color: #fa7a02;
-        font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+        font-family: 'Oswald', sans-serif;
         
         }
         .weatheraside{ 
@@ -101,9 +123,9 @@
         }
         .weathersum{
             border: 2px solid black;
-            width: 40%;
+            width: 52%;
             font-size: 12px;
-            margin-left: 2%;
+            margin-left: 4%;
             padding:6%;
         
         }
@@ -131,7 +153,7 @@
         }
         
         nav {
-            background-color: rgb(170, 213, 248);
+            background-color: black;
         }
         
         .navbar {
@@ -198,12 +220,11 @@
         }
         
         .hero {
-            width: 60px;
-            height: 40px;
+            width: 95%;
         }
         .townname {
             text-align: center;
-            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+            font-family: 'Oswald', sans-serif;
             background-color: #868282;
             font-size: 20px;
             margin-top: -10px;
@@ -211,10 +232,16 @@
         }
         .Summary{
         display: inline-block;
-        font-size: 20px;
+        
              
         }
-
+        
+        .m1 {
+            background-image: url(https://adamhawkins99.github.io/assignments/lesson-5/images/preston.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
         .bgc {
             background-color: #868282;
             max-width: 200px;
@@ -241,7 +268,7 @@
         
         .forecast h3 {
             text-align: center;
-            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+            font-family: 'Oswald', sans-serif;
             font-size: 20px;
         }
         
@@ -300,21 +327,11 @@
             max-width: 250px;
             margin-top: 20px;
         }
-        .leftcol, .rightcol{
-            max-width:48%;
-            flex: 1 0 15em;
-            margin: .5em;
-          }
-          .socialmedia {
-            box-shadow: 4px 4px 4px rgb(191, 225,252);
-            padding: 20px;
-            float:right;
-            margin: 3px;
-          }
+        
         footer {
             text-align: left;
-            /*padding-top: 5%;*/
-            background-color: rgb(86, 99,109);
+            padding-top: 5%;
+            background-color: #868282;
         }
         
         footer p {
@@ -323,7 +340,7 @@
             float: right;
         } 
         .footnav{
-            background-color: rgb(86, 99,109);
+            background-color: black;
             color: white;
             padding: 4px;
         }

@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blue Moon's Weather </title>
+    <title>Accurate Weather Forecast</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
-
-    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 
@@ -18,12 +16,10 @@
 
 <body>
     <header>
-        <img id="logo"
-            src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166"
-            alt="logo">
+        <img class="logo" src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166" alt="logo">
         <div class="headertext">
             <h1>Today's Weather</h1>
-            <div class="subheading">The most accurate weather source in the county</div>
+            <div class="subheading">The most accurate weather source in the county.</div>
         </div>
         <div class="currentConditions">
             <img src="https://cdn.glitch.com/16c9cbc7-f039-43c6-9418-fb4796f3f873%2F565f5a4629c30.image.jpg?1539534632694"
@@ -32,23 +28,25 @@
         </div>
     </header>
     <nav>
+        <button type="button" onclick="toggleMenu()">&#9776; Menu</button>
         <ul class="navigation">
-            <li> <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
-            </li>
-            <li><a href="home.html" title="Home">Home</a></li>
-            <li><a href="preston-4.html" title="Preston">Preston</a></li>
-            <li><a href="sodaspring.html" title="Soda Springs">Soda Springs</a></li>
-            <li><a href="fishhaven.html" title="Fish Haven">Fish Haven</a></li>
-            <li><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
-            <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+
+            <li><a href="deafult.asp" title="Home">Home</a></li>
+            <li><a href="preston.asp" title="Preston">Preston</a></li>
+            <li><a href="sodaspring.asp" title="Soda Springs">Soda Springs</a></li>
+            <li><a href="fishhaven.asp" title="Fish Haven">Fish Haven</a></li>
+            <li><a href="stormcenter.asp" title="Storm Center">Storm Center</a></li>
+            <li><a href="gallery.asp" title="Gallery">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
         <br>
-        <h2>Preston</h2>
+        <h2>Town Name</h2>
         <section>
-            <div class="heroimage"><img src="images/hero.jpg" alt="franklin-original Image"></div>
+            <div class="heroimage"><img src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-original.jpeg?v=1570849407051" sizes="100vw"
+                    srcset="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-small.jpg?v=1570849410932 625w, https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-L.jpg?v=1570849401532 620w" alt="franklin-original Image">
+            </div>
 
             <aside class="weatheraside">
 
@@ -68,7 +66,7 @@
 
 <section class="sec2">
     <div class="Summary">
-        <h3>5 Days Forecast</h3>
+        <h3>5 Day Forecast</h3>
         <p>Ex graeci audiam deterruisset sea. Eu velit maiorum prodesset mel, per no hinc saepe. Semper aperiam
             imperdiet ad nam. Cum vitae forensibus honestatis ex, ut modo meis offendit nam, partem lucilius consetetur
             ius ea.</p>
@@ -79,7 +77,7 @@
     <body>
         <div class="article">
     </body>
-    <img src="images/article.jpg" alt="Article Image" class="Arcimg">
+    <img src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Farticle.jpg?v=1570849395589" alt="Article Image" class="Arcimg">
     <div class="Arc">
         <h3>Article</h3>
         <p>Lorem ipsum dolor sit amet, saepe urbanitas conceptam his eu, ut tantas iracundia deterruisset usu. Mea id
@@ -92,25 +90,17 @@
     </div>
 </section>
 </main>
-
 <footer>
-    <img src="images/map.jpg" alt="map">
+    <img src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Fmap.jpg?v=1570849419141" alt="map">
     <p>contact information</p>
     <ul class="footnav">
-        <div class="leftcol">
-        <p>&copy;<span id="currentDate"></span> Blue Moon's Weather |Jenny Min </p>
-        </div>
-  
-  <div class="rightcol">
-  <div class="zoomin">
-    <a  class="socialmedia" target="_blank" href="http://www.byui.edu/online"><img src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Fbyui.jpg?v=1569633741299" alt="BYUI icon"></a> 
-    <a class="socialmedia" target="_blank" href="https://www.linkedin.com/in/soohyunmin/"><img src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Flinkedin.png?v=1569633756939" alt="Linkedin icon" width="65" height="65"></a> 
-    <a class="socialmedia" target="_blank" href="https://github.com/Pinkcherish98/CIT230.github.io"><img src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2FGitHub.jpg?v=1569633749918" alt="gitHub icon" width="65" height="65"></a>
-    </div>  
-  </div>
+        <li>&copy; Jenny Min</li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><span id="currentDate"></span> </li>
 
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/currentdate.js"></script>
 </footer>
-<script src="scripts/preston-4.js"></script>
 </body>
 
 </html>
