@@ -102,6 +102,8 @@
         }
         .Arcimg {
             float: right;
+            position: relative;
+            top: -70px;
         }
         
         .ht h1 {
