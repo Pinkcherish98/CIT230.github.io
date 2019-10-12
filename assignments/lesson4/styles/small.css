@@ -22,8 +22,12 @@ body {
 }
 
 .headertext {
-    float: right;
+    float: none;
+    display: inline-block;
     font-size: 12px;
+    margin-left: 4%;
+    border: white 1px dotted;
+    margin: 4%;
 }
 
 /*Sunny picture*/
@@ -32,10 +36,10 @@ body {
 }
 
 .wrapperhead {
-    background-color: #393939;
+    background-color: rgb(170, 213, 248);
     display: flex;
     justify-content: center;
-    color: #FF5A09;
+    color: white;
     text-shadow: 3px 2px rgb(14, 5, 1)
 }
 
@@ -51,7 +55,7 @@ body {
 .ht h1 {
     display: flex;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 30px;
     margin-top: 20px;
 }
@@ -59,7 +63,7 @@ body {
 .sh h2 {
     font-size: 1.3rem;
     color: #fa7a02;
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 
 }
 
@@ -68,7 +72,7 @@ body {
 }
 
 .weathersum {
-    border: 2px solid black;
+    border: 2px solid white;
     width: 52%;
     font-size: 12px;
     margin-left: 4%;
@@ -228,7 +232,7 @@ aside {
 footer {
     text-align: center;
     padding-top: 5%;
-    background-color: #868282;
+    background-color: #436d70;
 }
 
 footer p {

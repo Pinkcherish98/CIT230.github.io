@@ -95,10 +95,10 @@
     }
 
     .wrapperhead {
-        background-color: #393939;
+        background-color: rgb(170, 213, 248);
         display: flex;
         justify-content: center;
-        color: #FF5A09;
+        color: white;
         text-shadow: 3px 2px rgb(14, 5, 1)
     }
 
