@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(170, 213, 248);
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 
 }
 
@@ -211,7 +211,7 @@ aside {
 
 .townname {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     background-color: #868282;
     font-size: 20px;
     margin-top: -10px;

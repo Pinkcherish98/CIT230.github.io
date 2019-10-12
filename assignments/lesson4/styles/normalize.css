@@ -166,7 +166,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  font-family: Papyrus, fantasy;
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -185,6 +185,13 @@ button,
 input {
   /* 1 */
   overflow: visible;
+  display: block;
+  color: #fff;
+  padding: .75rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(50, 0, 70);
+
 }
 
 /**
@@ -229,7 +236,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1px dotted;
 }
 
 /**
