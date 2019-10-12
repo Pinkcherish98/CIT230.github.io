@@ -5,14 +5,20 @@
 }
 
 body {
-    background-color: #399999;
+    background-color: rgb(170, 213, 248);
     font-family: 'Oswald', sans-serif;
 
 }
-.logo{
+.logo {
+    padding-left: .5em;
+    position:relative;
+    background-color: rgb(171, 209, 230);
+    border: grey 1px solid;
+    border-radius: 15px;
     width: 14%;
     margin: 4%;
-}
+    box-shadow: 5px 5px 5px rgb(191, 225,252);
+  }
 .headertext {
     float: right;
     font-size: 12px;
@@ -75,7 +81,7 @@ margin: 1rem 0 1rem 5rem;
 padding: 1.0rem;
 vertical-align: middle;
 color: #FF5A09 ;
-background-color: rgb(41, 39, 39);
+background-color: rgb(50, 0, 70);
 border: 5px outset rgb(72, 72, 73);
 font-size: 1.2rem;
 }
@@ -85,7 +91,7 @@ font-size: 1.2rem;
 }
 
 nav {
-    background-color: #393939;
+    background-color: rgb(50, 0, 70);
 }
 .navigation{
     list-style: none;
@@ -101,11 +107,11 @@ nav {
     padding:.75rem;
     text-align: center;
     text-decoration: none;
-    background-color: #000;
+    background-color:  rgb(50, 0, 70);
 }
 .navigation a:hover {
-    color: #000;
-    background-color: #fff;
+    color: rgb(50, 0, 70);
+    background-color: rgb(50, 0, 70);
     font-weight: 700;
 }
 
@@ -136,9 +142,6 @@ a {
     color: white;
    
 
-}
-a:hover {
-    background-color: #88a3ae;
 }
 /*
 .hamburger {
@@ -194,92 +197,6 @@ display: none;
      
 }
 
-.m1 {
-    background-image: url(https://adamhawkins99.github.io/assignments/lesson-5/images/preston.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bgc {
-    background-color: #868282;
-    max-width: 200px;
-    margin-left: 10px;
-}
-
-.wd {
-    margin: 20px;
-    height: 170px;
-    max-width: 160px;
-}
-
-.label {
-    line-height: 20px;
-}
-
-.m2 {
-    display: none;
-}
-
-.m2 section {
-    background-color: #868282;
-}
-
-.forecast h3 {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-}
-
-table {
-    margin: 0 auto;
-    line-height: 20px;
-    border-spacing: 10px;
-}
-
-.m3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column-reverse;
-    margin-top: 10px;
-    background-color: #868282;
-}
-
-.m3 article {
-    max-width: 550px;
-}
-
-.m3 article p {
-    line-height: 25px;
-    margin: 20px;
-}
-
-.artimg img {
-    max-width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.m4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin-top: 15px;
-    background-color: #868282;
-}
-
-.m4 section {
-    max-width: 550px;
-}
-
-.m4 section p {
-    line-height: 25px;
-    margin: 20px;
-}
-
 .map img {
     max-width: 250px;
     margin-top: 20px;
@@ -295,7 +212,7 @@ footer p {
     padding: 10px;
 } 
 .footnav{
-    background-color: black;
+    background-color: rgb(50, 0, 70);
     color: white;
     padding: 4px;
 }

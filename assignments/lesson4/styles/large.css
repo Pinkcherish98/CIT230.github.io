@@ -27,10 +27,10 @@
         padding:.75rem;
         text-align: center;
         text-decoration: none;
-        background-color: #000;
+        background-color: rgb(50, 0, 70);
     }
     .navigation a:hover {
-        color: #000;
+        color: rgb(50, 0, 70);
         background-color: #fff;
         font-weight: 700;
     }
@@ -61,8 +61,8 @@
         }
         
         body {
-            background-color: #399999;
-            font-family: 'Oswald', sans-serif;
+            background-color: rgb(170, 213, 248);
+            font-family: Papyrus,fantasy;
         
         }
         .logo{
@@ -86,7 +86,7 @@
             display: flex;
             justify-content: center;
             color: #FF5A09;
-        text-shadow: 3px 2px rgb(14, 5, 1)
+            text-shadow: 3px 2px rgb(14, 5, 1)
         }
         
         .img1, .img2 {
@@ -107,7 +107,7 @@
         .ht h1 {
             display: flex;
             justify-content: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             font-size: 30px;
             margin-top: 20px;
         }
@@ -115,14 +115,14 @@
         .sh h2 {
             font-size: 1.3rem;
         color: #fa7a02;
-        font-family: 'Oswald', sans-serif;
+        font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
         
         }
         .weatheraside{ 
             padding: 4%;
         }
         .weathersum{
-            border: 2px solid black;
+            border: 2px solid white;
             width: 52%;
             font-size: 12px;
             margin-left: 4%;
@@ -130,7 +130,7 @@
         
         }
         .article{
-            border: 2px solid black;
+            border: 2px solid white;
             width: 98%;
             font-size: 11px;
             padding-bottom: 12%;
@@ -143,7 +143,7 @@
         padding: 1.0rem;
         vertical-align: middle;
         color: #FF5A09 ;
-        background-color: rgb(41, 39, 39);
+        background-color: rgb(50, 0, 70);
         border: 5px outset rgb(72, 72, 73);
         font-size: 1.2rem;
         }
@@ -153,7 +153,7 @@
         }
         
         nav {
-            background-color: black;
+            background-color: rgb(50, 0, 70);
         }
         
         .navbar {
@@ -224,104 +224,14 @@
         }
         .townname {
             text-align: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
             background-color: #868282;
             font-size: 20px;
             margin-top: -10px;
-        padding: 10px;
+            padding: 10px;
         }
         .Summary{
-        display: inline-block;
-        
-             
-        }
-        
-        .m1 {
-            background-image: url(https://adamhawkins99.github.io/assignments/lesson-5/images/preston.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        
-        .bgc {
-            background-color: #868282;
-            max-width: 200px;
-            margin-left: 10px;
-        }
-        
-        .wd {
-            margin: 20px;
-            height: 170px;
-            max-width: 160px;
-        }
-        
-        .label {
-            line-height: 20px;
-        }
-        
-        .m2 {
-            display: inline-block;
-        }
-        
-        .m2 section {
-            background-color: #868282;
-        }
-        
-        .forecast h3 {
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            font-size: 20px;
-        }
-        
-        table {
-            margin: 0 auto;
-            line-height: 20px;
-            border-spacing: 10px;
-        }
-        
-        .m3 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: column-reverse;
-            margin-top: 10px;
-            background-color: #868282;
-        }
-        
-        .m3 article {
-            max-width: 550px;
-            margin-left: 84%;
-        }
-        
-        .m3 article p {
-            line-height: 25px;
-            margin: 20px;
-        }
-        
-        .artimg img {
-            max-width: 250px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 20px;
-        }
-        
-        .m4 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: row-reverse;
-            margin-top: 15px;
-            background-color: #868282;
-        }
-        
-        .m4 section {
-            max-width: 550px;
-        }
-        
-        .m4 section p {
-            line-height: 25px;
-            margin: 20px;
-        }
+        display: inline-block;}
         
         .map img {
             max-width: 250px;
@@ -331,7 +241,7 @@
         footer {
             text-align: left;
             padding-top: 5%;
-            background-color: #868282;
+            background-color: #436d70;
         }
         
         footer p {
@@ -340,7 +250,7 @@
             float: right;
         } 
         .footnav{
-            background-color: black;
+            background-color: #56636d;
             color: white;
             padding: 4px;
         }
