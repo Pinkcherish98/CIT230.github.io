@@ -280,9 +280,11 @@
     }
 
     footer p {
-        padding: 10px;
-        width: 50%;
+        position: relative;
+        top: -180px;
         float: right;
+        color:white;
+        
     }
 
     .footnav {
