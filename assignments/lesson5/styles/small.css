@@ -240,7 +240,8 @@ footer {
 }
 
 footer p {
-display: none;
+    display: inline-block;
+    
 }
 
 .footnav {
