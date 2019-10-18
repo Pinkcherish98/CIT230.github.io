@@ -181,8 +181,7 @@ a {
 */
 
 
-.nav-links,
-.logo {
+.nav-links {
     text-decoration: none;
     color: #FF5A09;
 }
@@ -201,6 +200,7 @@ main h2 {
     position: absolute;
     height: max-content;
     width: 95%;
+    margin-left: -154px;
 }
 
 aside {
@@ -223,26 +223,32 @@ aside {
 
 .Summary {
     display: none;
-
-
 }
 
-.map img {
-    max-width: .5px;
-    margin-top: .01px;
-    float: left;
+.map{
+    display: none;
 }
+
 
 footer {
     text-align: center;
     padding-top: 5%;
     background-color: #436d70;
 }
-
-footer p {
-    display: inline-block;
-    
+.cinfo{
+    border: 1.5px dotted white;
+    width: 100%;
+     position: relative;
+     float: right;
+     color:white;
+     background-color: #436d70;
 }
+.footer p{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 8px;
+    font-size: 15px;  
+  }
 
 .footnav {
     background-color: rgb(50, 0, 70);
