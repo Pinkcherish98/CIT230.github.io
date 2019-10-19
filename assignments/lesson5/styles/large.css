@@ -6,6 +6,7 @@
     }
 
     .headertext {
+        position: relative;
         float: none;
         display: inline-block;
         font-size: 1rem;
@@ -94,8 +95,7 @@
         border-radius: 15px;
         width: 165px;
         box-shadow: 5px 5px 5px rgb(191, 225, 252);
-        margin: 0px 163px 20px 20px;
-
+        margin: 0px 50px 20px 20px;
     }
 
     .wrapperhead {

@@ -11,9 +11,7 @@ body {
 }
 
 .hidden{
-    position: sticky;
-    top:0;
-    padding: 5px;
+    float: none;
     display: inline-block;
     font-size: 12px;
     border: yellow 1px solid;
@@ -23,29 +21,23 @@ body {
 }
 
 .logo {
-    padding: 0 0 0 8px;
     padding-left: .5em;
-    position: absolute;
-    right: 260px;
+    position: relative;
     background-color: rgb(171, 209, 230);
     border: grey 1px solid;
     border-radius: 15px;
     width: 14%;
     margin: 4%;
     box-shadow: 5px 5px 5px rgb(191, 225, 252);
-
-    
+    margin: 0px 163px 20px 20px;
 }
 
 .headertext {
-    position: relative;
-
     float: none;
     display: inline-block;
     font-size: 12px;
     border: white 1px dotted;
-    margin: 5%;
-    padding: 4%;
+
 }
 
 /*Sunny picture*/
