@@ -188,7 +188,7 @@ main h2 {
 .heroimage {
     position: absolute;
     height: max-content;
-    width: 95%;
+    width: 75%;
     margin-left: -154px;
 }
 
@@ -197,9 +197,6 @@ aside {
 
 }
 
-.hero {
-    width: 95%;
-}
 
 .townname {
     text-align: center;

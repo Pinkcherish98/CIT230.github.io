@@ -156,11 +156,10 @@
     }
     .article {
         border: 2px solid white;
-        width: 102%;
+        width: 75%;
         font-size: 12px;
-        padding-bottom: 12%;
         background-color: white;
-        margin-left: -1%;
+        margin: 11%;
     }
 
     .cc {
@@ -242,17 +241,14 @@
 
     .heroimage {
         position: absolute;
-        margin-left: -50%;
+        margin-left: -40%;
+        width:75%;
 
     }
 
     aside {
         position: relative;
 
-    }
-
-    .hero {
-        width: 100%;
     }
 
     .townname {
@@ -264,7 +260,7 @@
         padding: 10px;
     }
     h3 {
-        padding: 5%;
+
         text-align: center;
         font-size: 30px;
     }
@@ -275,7 +271,7 @@
     }
     .Summary {
         display: inline-block;
-        
+
     }
 
     .map{
@@ -287,16 +283,16 @@
     }
 
     footer {
-        text-align: left;
-        padding-top: 0%;
+
         background-color: #436d70;
-        width: 98%;
+        width: 75%;
+        margin: 11% 11% 0% 11%;
     }
 
     .cinfo{
        border: 1.5px dotted white;
        width: 39%;
-       margin-right: 14%;
+       margin-right: 30%;
         position: relative;
         float: right;
         color:white;
