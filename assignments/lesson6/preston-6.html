@@ -10,8 +10,9 @@
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 
 </head>
@@ -55,23 +56,34 @@
                     srcset="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-small.jpg?v=1570849410932 625w, https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-L.jpg?v=1570849401532 620w"
                     alt="franklin-original Image">
             </div>
+        </section>
 
-            <aside class="weatheraside">
+        <aside class="weatheraside">
 
 
-                <body>
-                    <div class="weathersum">
-                        <b>
-                            <h3>Weather Summary</h3>
-                        </b>
-                        <p>Currently: Sunny</p>
-                        <p>Temperature: 76 &#8457;</p>
-                        <p>Humidity: 69 %</p>
-                        <p>Precipitation: 0 inches</p>
-                        <p>Wind Speed: 5 mph</p>
-                    </div>
+            <body>
+                <section class="weathersum">
+                    <b>
+                        <h3>Weather Summary</h3>
+                    </b>
+                    <section>
+                        <div>
+                            <span>Current Tep: </span>
+                            <span id="currentTemp"></span>
+                        </div>
 
-            </aside>
+                        <div>
+                            <span>Wind Speed: </span>
+                            <span id="windSpeed"></span>
+                        </div>
+                        <div>
+                            <span>Windchill: </span>
+                            <span id="windChill"></span>
+                        </div>
+
+                    </section>
+
+        </aside>
 
         </section>
 
@@ -145,6 +157,7 @@
         <script src="scripts/menu.js"></script>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/forecast.js"></script>
+        <script src="scripts/windchill.js"></script>
 
 </body>
 

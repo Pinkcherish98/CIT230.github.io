@@ -12,7 +12,7 @@ body {
 
 .hidden{
     float: none;
-    display: inline-block;
+    display: none;
     font-size: 12px;
     border: yellow 1px solid;
     background-color: lightpink;
