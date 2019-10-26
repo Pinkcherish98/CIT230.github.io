@@ -145,11 +145,14 @@
 
     .weathersum {
         border: 2px solid white;
-        width: 52%;
-        font-size: 12px;
+        width: 40%;
+        font-size: 20px;
         margin-left: 4%;
         padding: 6%;
 
+    }
+    .wFont{
+        font-size: 30px;
     }
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
@@ -242,7 +245,8 @@
     .heroimage {
         position: absolute;
         margin-left: -40%;
-        width:75%;
+        width:77%;
+        height: 84%;
 
     }
 

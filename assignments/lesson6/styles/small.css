@@ -3,7 +3,15 @@
     padding: 0;
     margin: 0;
 }
+.headertext {
+    float: none;
+    position: relative;
+    display: inline-block;
+    font-size: 8px;
+    border: white 1px dotted;
+    margin-left:15%;
 
+}
 body {
     background-color: rgb(170, 213, 248);
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
@@ -29,16 +37,10 @@ body {
     width: 14%;
     margin: 4%;
     box-shadow: 5px 5px 5px rgb(191, 225, 252);
-    margin: 0px 163px 20px 20px;
+    margin: 0px 163px -40px 10px;
 }
 
-.headertext {
-    float: none;
-    display: inline-block;
-    font-size: 12px;
-    border: white 1px dotted;
 
-}
 
 /*Sunny picture*/
 .currentConditions {
@@ -85,10 +87,13 @@ body {
 .weathersum {
     border: 2px solid white;
     width: 52%;
-    font-size: 12%;
+    font-size: 14%;
     margin-left: 4%;
     padding: 6%;
 
+}
+.wFont {
+    font-size: 13px;
 }
 
 .article {
@@ -187,9 +192,9 @@ main h2 {
 
 .heroimage {
     position: absolute;
-    height: max-content;
-    width: 75%;
-    margin-left: -154px;
+    height: 14%;
+    width: 99%;
+    margin-left: -211px;
 }
 
 aside {
