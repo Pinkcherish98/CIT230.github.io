@@ -59,7 +59,7 @@
     table, th, td{
         border: 1px solid black;
         padding: 5px;
-        font-size: 15px;
+        font-size: 50px;
     }
 
     ul {
@@ -75,7 +75,7 @@
         box-sizing: border-box;
         padding: 0;
         margin: 8px;
-        font-size: 15px;
+        font-size: 30px;
     }
 
     body {
@@ -95,7 +95,7 @@
         border-radius: 15px;
         width: 165px;
         box-shadow: 5px 5px 5px rgb(191, 225, 252);
-        margin: 0px 50px 20px 20px;
+        margin: 0px 310px 62px 44px;
     }
 
     .wrapperhead {
@@ -121,7 +121,7 @@
     .Arcimg {
         float: right;
         position: relative;
-        top: -70px;
+        top: -30px;
     }
 
     .ht h1 {
@@ -146,13 +146,12 @@
     .weathersum {
         border: 2px solid white;
         width: 40%;
-        font-size: 20px;
         margin-left: 4%;
         padding: 6%;
 
     }
-    .wFont{
-        font-size: 30px;
+    span {
+        font-size: 40px;
     }
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
@@ -238,7 +237,7 @@
 
     main h2 {
         margin-bottom: 2%;
-        font-size: 25px;
+        font-size: 70px;
 
     }
 
@@ -266,12 +265,12 @@
     h3 {
 
         text-align: center;
-        font-size: 30px;
+        font-size: 60px;
     }
     h4 {
         padding: 2%;
         text-align: left;
-        font-size: 15px;
+        font-size: 40px;
     }
     .Summary {
         display: inline-block;
