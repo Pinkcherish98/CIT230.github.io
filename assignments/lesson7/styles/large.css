@@ -323,4 +323,8 @@
     .footnav li a:link {
         color: white;
     }
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
