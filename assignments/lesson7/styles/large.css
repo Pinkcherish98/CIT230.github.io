@@ -325,17 +325,5 @@
     .footnav li a:link {
         color: white;
     }
-    #gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    #gallery img{
-        filter: blur(.1em);
-        transition: filter 0.5s;
-    }
-    #gallery img:hoover{
-        box-shadow: 0 0 20px #000000b6;
-        -webkit-transition: 0.4s;
-        filter: blur(0em);
-    }
+
 }

@@ -257,19 +257,14 @@ footer {
 }
 #gallery {
     display: grid;
-    grid-template-columns: 1fr;
-}
-#gallery figure{
-    margin: 20px;
-    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #gallery img{
-    width: 100%;
+    filter: blur(.1em);
+    transition: filter 0.5s;
 }
-#gallery figcaption{
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px 25px;
-    position: absolute;
-    bottom: 4px;
+#gallery img:hover{
+    box-shadow: 0 0 20px #000000b6;
+    -webkit-transition: 0.4s;
+    filter: blur(0em);
 }
