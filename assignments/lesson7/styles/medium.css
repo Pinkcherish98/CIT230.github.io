@@ -12,8 +12,8 @@
 	}
 	.navigation li a {
 		color: white;
-	}
-	
+        }
+
 	.map{
         height: 12rem;
         width: 21rem;
@@ -40,19 +40,6 @@
         padding: 0%;
 
     }
-    .wFont{
-            font-size: 20px;
-    }
-    .cinfo{
-        border: 1.5px dotted white;
-        width: 39%;
-        margin-right: 10%;
-         position: relative;
-         float: right;
-         color:white;
-         
-         
-     }
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
