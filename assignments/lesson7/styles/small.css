@@ -259,3 +259,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
 }
+#gallery figure{
+    margin: 20px;
+    position: relative;
+}
+#gallery img{
+    width: 100%;
+}
+#gallery figcaption{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 25px;
+    position: absolute;
+    bottom: 4px;
+}
