@@ -218,6 +218,9 @@
         margin-right: auto;
         width: 60%;
     }
+    #gallery img[data-src] {
+        filter: blur(0.2em);
+    }
     h2 {
         font-size: 50px;
         text-align: center;

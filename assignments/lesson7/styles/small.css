@@ -234,6 +234,18 @@ aside {
     display: grid;
     grid-template-columns: 1fr;
 }
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#gallery figcaption {
+    font-size: 15px;
+    text-align: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #gallery img[data-src] {
     filter: blur(0.2em);
 }
