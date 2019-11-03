@@ -83,8 +83,15 @@
         font-family: Papyrus, fantasy;
 
     }
+    #pancake {
+        background-color: rgb(255,206,99);
+        font-family: 'Merriweather Sans', cursive;
+        text-align: center;
+        margin: 1em;
+    }
     .hidden{
         display: none;
+    
     }
 
     .logo {
