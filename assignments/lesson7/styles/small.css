@@ -17,14 +17,14 @@ body {
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 
 }
-
+#pancake {
+    background-color: rgb(255,206,99);
+    font-family: 'Merriweather Sans', cursive;
+    text-align: center;
+    margin: 1em;
+}
 .hidden{
-    float: none;
     display: none;
-    font-size: 12px;
-    border: yellow 1px solid;
-    background-color: lightpink;
-    color: yellow;
 
 }
 
@@ -216,31 +216,6 @@ aside {
     display: none;
 }
 
-.map{
-    display: none;
-}
-
-
-footer {
-    text-align: center;
-    padding-top: 5%;
-    background-color: #436d70;
-}
-.cinfo{
-    border: 1.5px dotted white;
-    width: 100%;
-     position: relative;
-     float: right;
-     color:white;
-     background-color: #436d70;
-}
-.footer p{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 8px;
-    font-size: 15px;  
-  }
-
 .footnav {
     background-color: rgb(50, 0, 70);
     color: white;
@@ -257,14 +232,18 @@ footer {
 }
 #gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+#gallery img[data-src] {
+    filter: blur(0.2em);
 }
 #gallery img{
-    filter: blur(.1em);
+    filter: blur(0em);
     transition: filter 0.5s;
+
 }
 #gallery img:hover{
     box-shadow: 0 0 20px #000000b6;
-    -webkit-transition: 0.4s;
-    filter: blur(0em);
+    transition: 0.4s;
+    filter: blur(0px);
 }

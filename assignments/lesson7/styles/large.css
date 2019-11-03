@@ -208,6 +208,29 @@
 
 
     }
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #gallery figcaption {
+        font-size: 30px;
+        text-align: center;
+        color: blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
 
     a {
 
@@ -284,38 +307,6 @@
     .Summary {
         display: inline-block;
 
-    }
-
-    .map{
-        height: 12rem;
-        width: 21rem;
-        display: inline-block;
-        margin-left: 12%;
-
-    }
-
-    footer {
-
-        background-color: #436d70;
-        width: 75%;
-        margin: 11% 11% 0% 11%;
-    }
-
-    .cinfo{
-       border: 1.5px dotted white;
-       width: 50%;
-       margin-right: 10%;
-        position: relative;
-        float: right;
-        color:white;
-        
-        
-    }
-    .footer p{
-      box-sizing: border-box;
-      padding: 0;
-      margin: 8px;
-      font-size: 15px;  
     }
 
     .footnav {
