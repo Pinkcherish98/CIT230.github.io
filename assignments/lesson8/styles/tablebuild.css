@@ -3,17 +3,30 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-table {
-    box-shadow: 5px 5px 4px 0px #7c98aa;
-}
+
 table,
 th,
 tr,
 td {
     border: 1px solid gray;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
 }
+
+table {
+    box-shadow: 5px 5px 4px 0px #7c98aa;
+}
+
+thead th {
+    font-weight: 700;
+}
+
+tbody th,
+tfoot th {
+    font-weight: 400;
+}
+
+
 
 td {
     text-align: center;
@@ -25,10 +38,6 @@ th {
     padding: 10px;
 }
 
-tr {
-    background-color: #e7ffed;
-}
-
 tfoot td {
     background-color: #7fb9c2;
     font-size: 10px;
@@ -38,7 +47,8 @@ th[colspan="3"] {
     background-color: #7fb9c2;
     color: black;
     font-weight: bold;
-    padding: 10ox;
+    padding: 10px;
+    font-size: 1.5em;
 }
 
 #nov {
@@ -46,12 +56,12 @@ th[colspan="3"] {
     color: white;
 }
 
-/* colspan on 2nd td for black friday */
-
-tr:nth-child(even) {
-    background-color: #e7ffed;
+tbody tr {
+    background-color: #e7f0ed;
 }
 
-tr:nth-child(odd) {
-    background-color: #e7f0ed;
+/* colspan on 2nd td for black friday */
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
 }
