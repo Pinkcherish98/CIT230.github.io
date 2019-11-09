@@ -80,7 +80,7 @@
 
     body {
         background-color: rgb(170, 213, 248);
-        font-family: Papyrus, fantasy;
+        font-family: 'Merriweather Sans', cursive;
 
     }
     #pancake {
@@ -159,9 +159,7 @@
         padding: 6%;
 
     }
-    span {
-        font-size: 40px;
-    }
+
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
     }
@@ -316,6 +314,7 @@
         background-color: #56636d;
         color: white;
         padding: 4px;
+        font-size: 20px;
     }
 
     .footnav li {
