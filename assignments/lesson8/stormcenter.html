@@ -8,7 +8,7 @@
     <title>Blue Moon's Weather</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
-
+      
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -19,11 +19,18 @@
 </head>
 
 <body>
-    <header>Blue Moon's Weather  
+    <header>
+        <section id="pancake" class="hidden">
+            <p>Saturday = Preston Pancake in the Park! 9:00 a.m. Saturady at the park.</p>
+
+        </section>
         <img class="logo"
-        src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166"
-        alt="logo">
-    </header>
+            src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166"
+            alt="logo">
+        <div class="headertext">
+            <h1>Today's Weather</h1>
+            <div class="subheading">The most accurate weather source in the county</div>
+        </div>
 
 <nav>
 
@@ -39,10 +46,12 @@
 </nav>
 
 <main>
+    <h2>Storm Center</h2>
     <form action="thanks.html" method="GET">
+        <h3>*User Information*</h3>
         <div>
             <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" pattern="[A=Za-z ]{5,}" required>
+            <input type="text" id="fullName" name="fullName" pattern=".{5,}" required>
         </div>
         <div>
             <label for="email">Email:</label>
@@ -56,6 +65,7 @@
             <label for="zipCode">Zip Code:</label>
             <input type="number" id="zipCode" name="zipCode" required>
         </div>
+        <h4>*Storm Information*</h4>
         <div>
             <label for="stormDate">Storm Date</label>
             <input type="date" id="stormDate" name="stormdDate">
@@ -72,7 +82,9 @@
         </datalist>
         <div>
             <label for="stormSeverity">Storm Severity</label>
-            <input type="range" id="stormSeverity" name="stormDate" min="1" max="10">
+            <input type="range" id="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks"
+            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
         </div>
 
 
@@ -88,7 +100,7 @@
             <div class="flex">
             <span>Are you in danger?</span>
 
-                <div class="no-margin"> 
+                <div class="nomargin"> 
                     <input type="radio" name="danger" id="yes" value="Yes">
                     <label for="yes">Yes</label>
                 </div>
@@ -107,12 +119,12 @@
 
         <div>
             <label for="comments" class="align-top">Comments:</label>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <textarea name="comments" id="commentbox" cols="28" rows="10"></textarea>
         </div>
 
         <div>
             <input type="submit" value="Submit">
-            <input type="reset" value="Reset" title="WARNING!!!">
+            <input type="reset" class="resetbutton" value="Reset" title="WARNING!!!">
         </div>
     </form>
     
@@ -131,6 +143,7 @@
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/forecast.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/adjustRating.js"></script>
 
         </body>
 

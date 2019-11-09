@@ -40,18 +40,7 @@ body {
     margin: 0px 163px -40px 10px;
 }
 
-label {
-    min-width: 300px;
-}
 
-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-form div {
-    margin-top: 10px;
-}
 
 /*Sunny picture*/
 .currentConditions {
@@ -213,8 +202,18 @@ aside {
 
 }
 
-.align-top{
-    vertical-align: top;
+
+.townname {
+    text-align: center;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    background-color: #868282;
+    font-size: 20px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.Summary {
+    display: none;
 }
 
 .footnav {
@@ -259,4 +258,49 @@ h2 {
     box-shadow: 0 0 20px #000000b6;
     transition: 0.4s;
     filter: blur(0px);
+}
+
+form {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1.5px dotted black;
+    background: rgb(0, 26, 47);
+}
+
+
+label {
+    display: inline-block;
+    min-width: 120px;
+}
+
+form div {
+    margin-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nomargin {
+    margin: 3px;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    color: white;
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+}
+
+.resetbutton {
+    background-color: #990000;
+    color: white;
 }
