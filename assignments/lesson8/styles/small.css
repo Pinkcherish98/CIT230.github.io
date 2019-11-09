@@ -224,11 +224,11 @@ form div {
     text-align: justify;
 }
 .flex span {
-    font-size: 30px;
+    font-size: 15px;
     
 }
 .flex label {
-    font-size: 20px;
+    font-size: 15px;
 
 }
 .nomargin {
@@ -237,7 +237,7 @@ form div {
 }
 .align-top {
     vertical-align: top;
-    font-size:30px;
+    font-size: 15px;
 }
 
 body {

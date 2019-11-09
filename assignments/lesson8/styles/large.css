@@ -325,5 +325,17 @@
     .footnav li a:link {
         color: white;
     }
+    .flex span {
+        font-size: 25px;
+        
+    }
+    .align-top {
+        vertical-align: top;
+        font-size:25px;
+    }
+    .flex label {
+        font-size: 25px;
+    
+    }
 
 }
