@@ -5,7 +5,11 @@ body {
 }
 h1 {
     font-size: 40px;
-
+    background-color: #994c60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 0 0;
 }
 
 h2 {
@@ -30,7 +34,7 @@ img {
 }
 
 article {
-    border: 10px outset silver;
+    border: 8px outset silver;
     text-align: center;
     margin: 5px;
     background-color: beige;
