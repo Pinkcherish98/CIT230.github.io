@@ -3,6 +3,10 @@ body {
     text-align: center;
     background-color: #98878f;
 }
+h1 {
+    font-size: 40px;
+
+}
 
 h2 {
     color: #985e6d;
@@ -26,7 +30,7 @@ img {
 }
 
 article {
-    border: 2px solid #192231;
+    border: 10px outset silver;
     text-align: center;
     margin: 5px;
     background-color: beige;
@@ -40,6 +44,7 @@ footer {
     padding: 35px;
     margin-bottom: 0px;
     text-align: center;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 800px) {
