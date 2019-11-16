@@ -1,4 +1,8 @@
 @media screen and (min-width:768px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     header {
         display: block;
         margin: 0;
