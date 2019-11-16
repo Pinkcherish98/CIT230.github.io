@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <title>Blue Moon's Weather</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
@@ -19,24 +19,29 @@
 </head>
 
 <body>
-
     <header>
-        <img class="Weather-Logo" src="./images/Weather-Logo-color-noback.png" alt="logo of a sun, moon, and stars">
-        <section class="headings">
-            <h1>Idaho Daily Weather </h1>
-            <div class='moto'>Be In the Know of Idaho</div>
+        <section id="pancake" class="hidden">
+            <p>Saturday = Preston Pancake in the Park! 9:00 a.m. Saturady at the park.</p>
+
         </section>
-    </header>
-    <div class="navigation-grid-hamburger">
+        <img class="logo"
+            src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166"
+            alt="logo">
+        <div class="headertext">
+            <h1>Today's Weather</h1>
+        
+            <div class="subheading">The most accurate weather source in the county</div>
+        </div>
         <nav>
+
             <ul class="navigation">
-                <li><a href="" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a class="active" href="./index.html" style="color: rgb(255, 206, 99);">Home</a></li>
-                <li><a href="./preston-9.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="./stormCenter-9.html">Storm Center</a></li>
-                <li><a href="./gallery-9.html">Gallery</a></li>
+                <button type="button" onclick="toggleMenu()">&#9776; Menu</button>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="preston-7.html" title="Preston">Preston</a></li>
+                <li><a href="#" title="Soda Springs">Soda Springs</a></li>
+                <li><a href="#" title="Fish Haven">Fish Haven</a></li>
+                <li><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
+                <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>
             </ul>
         </nav>
     </div>
@@ -61,13 +66,13 @@
         <div class="footer">
 
 
-            <p class='footer-text'> CIT230 &copy; <span id="currentDate"> &star; Ryan P. Harris | Colorado | BYUI
+            <p class='footer-text'> &star; Jenny Min | BYU-Idaho | CIT 230 &copy; <span id="currentDate"> 
                 </span></p>
         </div>
     </footer>
       
-    <script src="scripts/retrievedata.js"></script>
-    <script src="scripts/main.js"> </script>
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/menu.js"> </script>
 
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
