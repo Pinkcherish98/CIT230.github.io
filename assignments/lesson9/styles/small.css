@@ -14,7 +14,7 @@ body {
   
   .parallax-home{
     /* The image used */
-    background-image: url("Pinkcherish98.github.io/assignments/lesson9/images/sea.jpg");
+    background-image: url("/assignments/lesson9/images/sea.jpg");
     /* Set a specific height */
     height: 100%;
     /* Create the parallax scrolling effect */
