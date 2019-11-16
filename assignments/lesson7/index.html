@@ -8,7 +8,7 @@
     <title>Blue Moon's Weather</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
-      
+
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -29,9 +29,9 @@
             alt="logo">
         <div class="headertext">
             <h1>Today's Weather</h1>
+        
             <div class="subheading">The most accurate weather source in the county</div>
         </div>
-
         <nav>
 
             <ul class="navigation">
@@ -44,60 +44,45 @@
                 <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+    <main>
+    <div class="parallax-home">
+        <!-- parlax -->
+            <header>
+            <h1 id="homepage-h2">Towns of Idaho</h1>
+            </header>
+    
+            <main>
+                <div class="cards"></div>
+            </main>
+        
+            
+      </div>
 
-    <h2>Gallery</h2>
-    <section id="gallery">
-        <figure>
-            <img src="http://placekitten.com/300/400" alt="">
-            <figcaption>Cat 1</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/301/401" alt="">
-            <figcaption>Cat 2</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/302/402" alt="">
-            <figcaption>Cat 3</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/303/404" alt="">
-            <figcaption>Cat 4</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/305/405" alt="">
-            <figcaption>Cat 5</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/306/406" alt="">
-            <figcaption>Cat 6</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/307/407" alt="">
-            <figcaption>Cat 7</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/308/408" alt="">
-            <figcaption>Cat 8</figcaption>
-        </figure>
-        <figure>
-            <img src="http://placekitten.com/309/409" alt="">
-            <figcaption>Cat 9</figcaption>
-        </figure>
+    </main>
+        
+        
+    <footer>
+        <div class="footer">
 
-    </section>
 
-    <ul class="footnav">
-        <li>&copy; Jenny Min</li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><span id="currentDate"></span> </li>
+            <p class='footer-text'> &star; Jenny Min | BYU-Idaho | CIT 230 &copy; <span id="currentDate"> 
+                </span></p>
+        </div>
+    </footer>
+      
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/menu.js"> </script>
 
-        <script src="scripts/lazyload.js"></script>
-        <script src="scripts/menu.js"></script>
-        <script src="scripts/currentdate.js"></script>
-        <script src="scripts/forecast.js"></script>
-        <script src="scripts/windchill.js"></script>
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+    <script>
+            WebFont.load({
+              google: {
+                families: ['Diplomata SC', 'Merriweather Sans']
+              }
+            });
+          </script> -->
 </body>
 
 </html>
