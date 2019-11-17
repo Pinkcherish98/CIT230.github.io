@@ -229,6 +229,21 @@ aside {
 .footnav li a:link {
     color: white;
 }
+.footer-text {
+    margin: 1px;
+    color: white;
+    border: 1px;
+    padding: 10px;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+  }
+ 
+  footer {
+    align-items: left;
+    background-color: #56636d;
+    color: white;
+  }
 #gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -254,7 +269,8 @@ h2 {
     height: 300px;
     filter: blur(0em);
     transition: filter 0.5s;
-    box-shadow: 3px gray;
+    border-radius: 20px;
+    box-shadow: 4px 8px 4px gray;
 
 }
 #gallery img:hover{
