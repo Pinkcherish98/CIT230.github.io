@@ -1,8 +1,4 @@
 @media screen and (min-width:768px) {
-    .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     header {
         display: block;
         margin: 0;
@@ -84,18 +80,11 @@
 
     body {
         background-color: rgb(170, 213, 248);
-        font-family: 'Merriweather Sans', cursive;
+        font-family: Papyrus, fantasy;
 
-    }
-    #pancake {
-        background-color: rgb(255,206,99);
-        font-family: 'Merriweather Sans', cursive;
-        text-align: center;
-        margin: 1em;
     }
     .hidden{
         display: none;
-    
     }
 
     .logo {
@@ -123,8 +112,6 @@
         height: 60px;
 
     }
-
-
 
     .sec2 {
         margin: 30% 5% 5% 0%;
@@ -163,7 +150,9 @@
         padding: 6%;
 
     }
-
+    span {
+        font-size: 40px;
+    }
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
     }
@@ -210,32 +199,6 @@
 
 
     }
-    #gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    #gallery img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-    }
-    #gallery img[data-src] {
-        filter: blur(0.2em);
-    }
-    h2 {
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    #gallery figcaption {
-        font-size: 30px;
-        text-align: center;
-        color: blue;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
 
     a {
 
@@ -314,11 +277,42 @@
 
     }
 
+    .map{
+        height: 12rem;
+        width: 21rem;
+        display: inline-block;
+        margin-left: 12%;
+
+    }
+
+    footer {
+
+        background-color: #436d70;
+        width: 75%;
+        margin: 11% 11% 0% 11%;
+    }
+
+    .cinfo{
+       border: 1.5px dotted white;
+       width: 50%;
+       margin-right: 10%;
+        position: relative;
+        float: right;
+        color:white;
+        
+        
+    }
+    .footer p{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 8px;
+      font-size: 15px;  
+    }
+
     .footnav {
         background-color: #56636d;
         color: white;
         padding: 4px;
-        font-size: 20px;
     }
 
     .footnav li {
@@ -329,17 +323,4 @@
     .footnav li a:link {
         color: white;
     }
-    .flex span {
-        font-size: 25px;
-        
-    }
-    .align-top {
-        vertical-align: top;
-        font-size:25px;
-    }
-    .flex label {
-        font-size: 25px;
-    
-    }
-
 }
