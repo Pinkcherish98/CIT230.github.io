@@ -8,11 +8,11 @@
     <title>Blue Moon's Weather</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
-
-    <link rel="stylesheet" href="styles/9small.css">
-    <link rel="stylesheet" href="styles/9normalize.css">
-    <link rel="stylesheet" href="styles/9medium.css">
-    <link rel="stylesheet" href="styles/9large.css">
+      
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 
@@ -29,9 +29,9 @@
             alt="logo">
         <div class="headertext">
             <h1>Today's Weather</h1>
-        
             <div class="subheading">The most accurate weather source in the county</div>
         </div>
+
         <nav>
 
             <ul class="navigation">
@@ -44,24 +44,49 @@
                 <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>
             </ul>
         </nav>
-    </div>
-    <main>
-    <div class="parallax-home">
-        <!-- parlax -->
-            <header>
-            <h1 id="homepage-h2">Towns of Idaho</h1>
-            </header>
-    
-            <main>
-                <div class="cards"></div>
-            </main>
-        
-            
-      </div>
+    </header>
 
-    </main>
-        
-        
+    <h2>Gallery</h2>
+    <section id="gallery">
+        <figure>
+            <img src="images/cloudy.jpg" alt="">
+            <figcaption>Cloudy Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/rain.jpg" alt="">
+            <figcaption>Rainy Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/snow.jpg" alt="">
+            <figcaption>Snowy Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/sunny.jfif" alt="">
+            <figcaption>Suuny Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/sunset.jpg" alt="">
+            <figcaption>Beautiful Sunset</figcaption>
+        </figure>
+        <figure>
+            <img src="images/thunder.jpg" alt="">
+            <figcaption>Scary Thunder Night</figcaption>
+        </figure>
+        <figure>
+            <img src="images/tornado.jpg" alt="">
+            <figcaption>Tornado</figcaption>
+        </figure>
+        <figure>
+            <img src="images/after-rain.jpg" alt="">
+            <figcaption>After Rainy Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/usual.jpg" alt="">
+            <figcaption>Usual Day</figcaption>
+        </figure>
+
+    </section>
+
     <footer>
         <div class="footer">
 
@@ -70,19 +95,13 @@
                 </span></p>
         </div>
     </footer>
-      
-    <script src="scripts/towndata.js"></script>
-    <script src="scripts/menu.js"> </script>
 
+        <script src="scripts/lazyload.js"></script>
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/forecast.js"></script>
+        <script src="scripts/windchill.js"></script>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
-    <script>
-            WebFont.load({
-              google: {
-                families: ['Diplomata SC', 'Merriweather Sans']
-              }
-            });
-          </script> -->
 </body>
 
 </html>
