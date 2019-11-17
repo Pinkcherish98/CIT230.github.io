@@ -65,7 +65,8 @@
     }
     body {
         background-color: rgb(170, 213, 248);
-        font-family: Papyrus, fantasy;
+        font-family: 'Merriweather Sans', cursive;
+        color: black;
     }
     #pancake {
         background-color: rgb(255,206,99);
