@@ -1,4 +1,4 @@
-const request = "https://Pinkcherish98.github.io/assignments/lesson9/scripts/towndata.json"
+const request = "https://pinkcherish98.github.io/assignments/lesson9/scripts/towndata.json"
 
 fetch(request)
   .then(function (response) {
