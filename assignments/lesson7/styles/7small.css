@@ -1,243 +1,243 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .headertext {
-    float: none;
-    position: relative;
-    display: inline-block;
-    font-size: 8px;
-    border: white 1px dotted;
-    margin-left:15%;
+  float: none;
+  position: relative;
+  display: inline-block;
+  font-size: 8px;
+  border: white 1px dotted;
+  margin-left:15%;
 }
 body {
-    background-color: rgb(170, 213, 248);
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  background-color: rgb(170, 213, 248);
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 }
 #pancake {
-    background-color: rgb(255,206,99);
-    font-family: 'Merriweather Sans', cursive;
-    text-align: center;
-    margin: 1em;
+  background-color: rgb(255,206,99);
+  font-family: 'Merriweather Sans', cursive;
+  text-align: center;
+  margin: 1em;
 }
 .hidden{
-    display: none;
+  display: none;
 }
 .logo {
-    padding-left: .5em;
-    position: relative;
-    background-color: rgb(171, 209, 230);
-    border: grey 1px solid;
-    border-radius: 15px;
-    width: 14%;
-    margin: 4%;
-    box-shadow: 5px 5px 5px rgb(191, 225, 252);
-    margin: 0px 163px -40px 10px;
+  padding-left: .5em;
+  position: relative;
+  background-color: rgb(171, 209, 230);
+  border: grey 1px solid;
+  border-radius: 15px;
+  width: 14%;
+  margin: 4%;
+  box-shadow: 5px 5px 5px rgb(191, 225, 252);
+  margin: 0px 163px -40px 10px;
 }
 /*Sunny picture*/
 .currentConditions {
-    display: none;
+  display: none;
 }
 .wrapperhead {
-    background-color: rgb(170, 213, 248);
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-shadow: 3px 2px rgb(14, 5, 1)
+  background-color: rgb(170, 213, 248);
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 3px 2px rgb(14, 5, 1)
 }
 .img1,
 .img2 {
-    max-width: 60px;
-    height: 60px;
+  max-width: 60px;
+  height: 60px;
 }
 .ht h1 {
-    display: flex;
-    justify-content: center;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    font-size: 30px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  font-size: 30px;
+  margin-top: 20px;
 }
 .sh h2 {
-    font-size: 1.3rem;
-    color: #fa7a02;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  font-size: 1.3rem;
+  color: #fa7a02;
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 }
 .weatheraside {
-    padding: 4%;
+  padding: 4%;
 }
 .weathersum {
-    border: 2px solid white;
-    width: 52%;
-    font-size: 14%;
-    margin-left: 4%;
-    padding: 6%;
+  border: 2px solid white;
+  width: 52%;
+  font-size: 14%;
+  margin-left: 4%;
+  padding: 6%;
 }
 .wFont {
-    font-size: 13px;
+  font-size: 13px;
 }
 .article {
-    border: 2px solid black;
-    width: 100%;
-    font-size: 11px;
-    padding: 12%;
-    background-color: white;
+  border: 2px solid black;
+  width: 100%;
+  font-size: 11px;
+  padding: 12%;
+  background-color: white;
 }
 .cc {
-    display: inline-block;
-    margin: 1rem 0 1rem 5rem;
-    padding: 1.0rem;
-    vertical-align: middle;
-    color: #FF5A09;
-    background-color: rgb(50, 0, 70);
-    border: 5px outset rgb(72, 72, 73);
-    font-size: 1.2rem;
+  display: inline-block;
+  margin: 1rem 0 1rem 5rem;
+  padding: 1.0rem;
+  vertical-align: middle;
+  color: #FF5A09;
+  background-color: rgb(50, 0, 70);
+  border: 5px outset rgb(72, 72, 73);
+  font-size: 1.2rem;
 }
 .cc p {
-    text-align: center;
+  text-align: center;
 }
 nav {
-    background-color: rgb(50, 0, 70);
+  background-color: rgb(50, 0, 70);
 }
 .navigation {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 .navigation li {
-    display: none;
+  display: none;
 }
 .navigation a {
-    display: block;
-    color: #fff;
-    padding: .75rem;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(50, 0, 70);
+  display: block;
+  color: #fff;
+  padding: .75rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(50, 0, 70);
 }
 .navigation a:hover {
-    color: rgb(50, 0, 70);
-    background-color: rgb(50, 0, 70);
-    font-weight: 700;
+  color: rgb(50, 0, 70);
+  background-color: rgb(50, 0, 70);
+  font-weight: 700;
 }
 .navbar {
-    font-size: 0px;
+  font-size: 0px;
 }
 nav li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 nav li a {
-    display: inline-block;
+  display: inline-block;
 }
 .responsive li {
-    display: block;
+  display: block;
 }
 a {
-    overflow: hidden;
-    text-align: center;
-    padding: 14px 12px;
-    text-decoration: none;
-    /*after change to white, 6*/
-    color: white;
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  /*after change to white, 6*/
+  color: white;
 }
 main {
-    text-align: center;
+  text-align: center;
 }
 main h2 {
-    margin-bottom: 2%;
-    font-size: 25px;
+  margin-bottom: 2%;
+  font-size: 25px;
 }
 .heroimage {
-    position: absolute;
-    height: 14%;
-    width: 99%;
-    margin-left: -211px;
+  position: absolute;
+  height: 14%;
+  width: 99%;
+  margin-left: -211px;
 }
 aside {
-    position: relative;
+  position: relative;
 }
 .townname {
-    text-align: center;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    background-color: #868282;
-    font-size: 20px;
-    margin-top: -10px;
-    padding: 10px;
+  text-align: center;
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  background-color: #868282;
+  font-size: 20px;
+  margin-top: -10px;
+  padding: 10px;
 }
 .Summary {
-    display: none;
+  display: none;
 }
 .footnav {
-    background-color: rgb(50, 0, 70);
-    color: white;
-    padding: 4px;
+  background-color: rgb(50, 0, 70);
+  color: white;
+  padding: 4px;
 }
 .footnav li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 .footnav li a:link {
-    color: white;
+  color: white;
 }
 #gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 4%;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 4%;
 }
 h2 {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 3px groove white;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 5px double white;
 }
 #gallery figcaption {
-    font-size: 15px;
-    text-align: center;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 #gallery img[data-src] {
-    filter: blur(0.2em);
+  filter: blur(0.2em);
 }
 #gallery img{
-    filter: blur(0em);
-    transition: filter 0.5s;
-    box-shadow: 10px 10px 5px grey;
-    border: 5px double white;
-    border-radius: 10px;
-    max-width: 400px;
-    height: 300px;
+  filter: blur(0em);
+  transition: filter 0.5s;
+  box-shadow: 10px 10px 5px grey;
+  border: 5px double white;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 300px;
 }
 #gallery img:hover{
-    box-shadow: 0 0 20px #000000b6;
-    transition: 0.4s;
-    filter: blur(0px);
+  box-shadow: 0 0 20px #000000b6;
+  transition: 0.4s;
+  filter: blur(0px);
 }
 body {
-    font-family: 'Merriweather Sans', cursive;
-    color: white;
+  font-family: 'Merriweather Sans', cursive;
+  color: white;
 }
 
 .thanks {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Source Sans Pro', 'sans-serif';
-    color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Source Sans Pro', 'sans-serif';
+  color: white;
 }
 .footer-text {
-    margin: 1px;
-    color: white;
-    border: 1px;
-    padding: 10px;
-    width: 100%;
-    font-size: 22px;
-    text-align: center;
-  }
+  margin: 1px;
+  color: white;
+  border: 1px;
+  padding: 10px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
 footer {
-    align-items: left;
-    background-color: #56636d;
-    color: white;
-    text-align: center;
-  }
+  align-items: left;
+  background-color: #56636d;
+  color: white;
+  text-align: center;
+}

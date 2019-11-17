@@ -68,7 +68,7 @@ font-size: 1.3em;
 } */
 #homepage-h2{
   font-size: 2.5em;
-  border-bottom: 5px groove white;
+  border-bottom: 5px double white;
 }
 
 .yearFounded, .currentPopulation, .averageRainfall{
@@ -258,10 +258,23 @@ aside {
   color: white;
 }
 h2 {
-  font-size: 20px;
+  font-size: 2.5em;
   text-align: center;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 5px double white;
+}
+.stormB {
+      /* The image used */
+      background-image: url("/assignments/lesson9/images/sea.jpg");
+      /* Set a specific height */
+      height: 100%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 5px;
 }
 #gallery figcaption {
   font-size: 15px;

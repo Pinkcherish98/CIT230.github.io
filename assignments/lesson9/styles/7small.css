@@ -185,11 +185,11 @@ aside {
     padding: 4%;
 }
 h2 {
-    font-size: 20px;
+    font-size: 2.5em;
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 3px groove white;
+    border-bottom: 5px double white;
 }
 #gallery figcaption {
     font-size: 15px;
