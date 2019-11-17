@@ -2,7 +2,7 @@
   "towns" : [
   {
     "name": "Franklin",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/franklin.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/franklin.jpg",
     "motto": "Where you will grow!",
     "yearFounded": 1788,
     "currentPopulation": 30458,
@@ -15,7 +15,7 @@
   },
   {
     "name": "Fish Haven",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/fishhaven.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/fishhaven.jpg",
     "motto": "This is Fish Heaven.",
     "yearFounded": 1864,
     "currentPopulation": 501,
@@ -29,7 +29,7 @@
   },
   {
     "name": "Greenville",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/greenville.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/greenville.jpg",
     "motto": "Green is our way of life.",
     "yearFounded": 1805,
     "currentPopulation": 33458,
@@ -43,7 +43,7 @@
   },
   {
     "name": "Placerton",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/placerton.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/placerton.jpg",
     "motto": "Positive Placement in Placerton.",
     "yearFounded": 1946,
     "currentPopulation": 512,
@@ -55,7 +55,7 @@
   },
   {
     "name": "Preston",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/preston.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/preston.jpg",
     "motto": "Home of Napoleon Dynamite.",
     "yearFounded": 1866,
     "currentPopulation": 5204,
@@ -68,7 +68,7 @@
   },
   {
     "name": "Soda Springs",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/sodasprings.webp",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/sodasprings.webp",
     "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
     "yearFounded": 1858,
     "currentPopulation": 2985,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Springfield",
-    "photo": "https://pinkcherish98.github.io/assignments/lesson9/images/springfield.jpg",
+    "photo": "https://raw.githubusercontent.com/Pinkcherish98/pinkcherish98.github.io/master/assignments/lesson9/images/springfield.jpg",
     "motto": "Where everyone is lifted.",
     "yearFounded": 1826,
     "currentPopulation": 17852,
