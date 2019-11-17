@@ -183,7 +183,21 @@ aside {
   display: grid;
   grid-template-columns: 1fr;
   padding: 4%;
+      /* The image used */
+      background-image: url("/assignments/lesson9/images/city.jpg");
+      
+      /* Set a specific height */
+      height: 100%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: saturation;
+      border-radius: 5px;
+      
 }
+
 h2 {
   font-size: 2.5em;
   text-align: center;
