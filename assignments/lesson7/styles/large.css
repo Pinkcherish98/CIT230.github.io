@@ -1,4 +1,8 @@
 @media screen and (min-width:768px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     header {
         display: block;
         margin: 0;
@@ -80,7 +84,7 @@
 
     body {
         background-color: rgb(170, 213, 248);
-        font-family: Papyrus, fantasy;
+        font-family: 'Merriweather Sans', cursive;
 
     }
     #pancake {
@@ -159,9 +163,7 @@
         padding: 6%;
 
     }
-    span {
-        font-size: 40px;
-    }
+
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
     }
@@ -316,6 +318,7 @@
         background-color: #56636d;
         color: white;
         padding: 4px;
+        font-size: 20px;
     }
 
     .footnav li {
@@ -325,6 +328,18 @@
 
     .footnav li a:link {
         color: white;
+    }
+    .flex span {
+        font-size: 25px;
+        
+    }
+    .align-top {
+        vertical-align: top;
+        font-size:25px;
+    }
+    .flex label {
+        font-size: 25px;
+    
     }
 
 }

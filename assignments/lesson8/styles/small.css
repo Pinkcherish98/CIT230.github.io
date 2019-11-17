@@ -3,6 +3,95 @@
   padding: 2;
   margin: 0;
 }
+body {
+  background-color: rgb(170, 213, 248);
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+}
+
+.parallax-home{
+  /* The image used */
+  background-image: url("/assignments/lesson9/images/sea.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+header{
+  width: 100%;
+}
+
+.homepage-sections{
+  /* width: 20em; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.cards{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.cards section{
+  background-color: rgba(179, 211, 211, 0.493);
+  border: 5px double black;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin: .5em;
+  box-shadow: 10px 10px 5px grey;
+}
+.motto{
+font-style: italic;
+font-size: 1.3em;
+}
+/* 
+.card h2{
+  margin: 5px 0;
+}
+.cards p{
+  margin: 5px 0;
+  color: black;
+} */
+#homepage-h2{
+  font-size: 2.5em;
+  border-bottom: 5px groove white;
+}
+
+.yearFounded, .currentPopulation, .averageRainfall{
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+color: black;
+font-size: 1em;
+}
+
+
+/* h1{
+  color: black;
+  font-size: 1em;
+} */
+
+.homepage-images{
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.homepage-img:hover {
+  box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
 .headertext {
   float: none;
   position: relative;
@@ -12,11 +101,7 @@
   margin-left:15%;
 
 }
-body {
-  background-color: rgb(170, 213, 248);
-  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 
-}
 #pancake {
   background-color: rgb(255,206,99);
   font-family: 'Merriweather Sans', cursive;
@@ -256,5 +341,20 @@ body {
 }
 .resetbutton {
   background-color: #990000;
+  color: white;
+}
+.footer-text {
+  margin: 1px;
+  color: white;
+  border: 1px;
+  padding: 10px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer {
+  align-items: left;
+  background-color: #56636d;
   color: white;
 }
