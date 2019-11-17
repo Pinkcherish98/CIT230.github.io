@@ -1,68 +1,54 @@
-const requestURL = "https://Pinkcherish98.github.io/assignments/lesson9/scripts/towndata.json"
-fetch(requestURL)
-  .then(response => {
-      response.json()
-        .then(
-          response => {
-            const towns = response.towns;
+const request = "https://Pinkcherish98.github.io/assignments/lesson9/scripts/towndata.json"
 
-            towns.forEach(
-
-              (town) => {
-                if (town.name.toLowerCase() === 'fish haven') {
-                  //Fish Haven
-                  document.querySelector('#mottoFishHaven')
-                    .textContent = town.motto;
-
-                  document.querySelector('#fishHavenYearFounded')
-                    .textContent = town.yearFounded;
-
-                  document.querySelector('#fishPopulation')
-                    .textContent = town.currentPopulation;
-
-                  document.querySelector('#fishRainFall')
-                    .textContent = town.averageRainfall;
-
-                  document.querySelector('#fishHavenImage')
-                    .setAttribute('src', 'images/' + town.photo);
+fetch(request)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    // console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const towns = jsonObject['towns'];
 
 
-                } else if (town.name.toLowerCase() === 'preston') {
-                  //Preston
-                  document.querySelector('#mottoPreston')
-                    .textContent = town.motto;
+    for (let i = 0; i < 3; i++ ) {
+      let section = document.createElement('section');
+      section.setAttribute('id', towns[i].name + "section");
+      section.setAttribute('class', "homepage-sections");
+     
 
-                  document.querySelector('#prestonYearFounded')
-                    .textContent = town.yearFounded;
+     let h3 = document.createElement('h3');
+      h3.textContent = towns[i].name;
+      section.appendChild(h3);
 
-                  document.querySelector('#prestonPopulation')
-                    .textContent = town.currentPopulation;
+      let motto  = document.createElement('p');
+      motto.textContent = towns[i].motto;
+      motto.setAttribute('class', "motto");
+      section.appendChild(motto);
 
-                  document.querySelector('#prestonRainfall')
-                    .textContent = town.averageRainfall;
+      let yearFounded  = document.createElement('p');
+      yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+      yearFounded.setAttribute('class', "yearFounded");
+      section.appendChild(yearFounded);
 
-                  document.querySelector('#prestonImage')
-                    .setAttribute('src', 'images/' + town.photo);
+      let currentPopulation  = document.createElement('p');
+      currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
+      currentPopulation.setAttribute('class', "currentPopulation");
+      section.appendChild(currentPopulation);
 
-                } else if (town.name.toLowerCase() === 'soda springs') {
-                  //Soda Springs
-                  document.querySelector('#mottoSodaSprings')
-                    .textContent = town.motto;
+      let averageRainfall  = document.createElement('p');
+      averageRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+      averageRainfall.setAttribute('class', "averageRainfall");
+      section.appendChild(averageRainfall);
 
-                  document.querySelector('#sodaSpringsYearFounded')
-                    .textContent = town.yearFounded;
+      let image = document.createElement('img');
+      image.setAttribute('src', towns[i].photo);
+      image.setAttribute('alt', towns[i].name);
+      image.setAttribute('id', towns[i].name + "Img");
+      image.setAttribute('class', "homepage-images");
 
-                  document.querySelector('#sodaSpringsPopulation')
-                    .textContent = town.currentPopulation;
+      section.appendChild(image);
+      
+      document.querySelector('div.cards').appendChild(section);
 
-                  document.querySelector('#sodaSpringsRainFall')
-                    .textContent = town.averageRainfall;
 
-                  document.querySelector('#sodaSpringsImage')
-                    .setAttribute('src', 'images/' + town.photo);
-                }
-               }
-              );
-            }
-          )
-        });
+    }
+  });
