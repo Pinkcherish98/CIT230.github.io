@@ -189,6 +189,7 @@ h2 {
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px groove white;
 }
 #gallery figcaption {
     font-size: 15px;
@@ -204,6 +205,7 @@ h2 {
     filter: blur(0em);
     transition: filter 0.5s;
     box-shadow: 10px 10px 5px grey;
+    border: 5px double white;
     border-radius: 10px;
     max-width: 400px;
     height: 300px;
@@ -212,6 +214,17 @@ h2 {
     box-shadow: 0 0 20px #000000b6;
     transition: 0.4s;
     filter: blur(0px);
+}
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    color: white;
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    color: white;
 }
 .footer-text {
     margin: 1px;
@@ -226,4 +239,5 @@ footer {
     align-items: left;
     background-color: #56636d;
     color: white;
+    text-align: center;
   }
