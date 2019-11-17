@@ -10,14 +10,11 @@
     font-size: 8px;
     border: white 1px dotted;
     margin-left:15%;
-
 }
 body {
     background-color: rgb(170, 213, 248);
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-
 }
-
 #pancake {
     background-color: rgb(255,206,99);
     font-family: 'Merriweather Sans', cursive;
@@ -26,9 +23,7 @@ body {
 }
 .hidden{
     display: none;
-
 }
-
 .logo {
     padding-left: .5em;
     position: relative;
@@ -40,14 +35,10 @@ body {
     box-shadow: 5px 5px 5px rgb(191, 225, 252);
     margin: 0px 163px -40px 10px;
 }
-
-
-
 /*Sunny picture*/
 .currentConditions {
     display: none;
 }
-
 .wrapperhead {
     background-color: rgb(170, 213, 248);
     display: flex;
@@ -55,16 +46,11 @@ body {
     color: white;
     text-shadow: 3px 2px rgb(14, 5, 1)
 }
-
 .img1,
 .img2 {
     max-width: 60px;
     height: 60px;
-
 }
-
-
-
 .ht h1 {
     display: flex;
     justify-content: center;
@@ -72,31 +58,24 @@ body {
     font-size: 30px;
     margin-top: 20px;
 }
-
 .sh h2 {
     font-size: 1.3rem;
     color: #fa7a02;
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-
 }
-
 .weatheraside {
     padding: 4%;
-
 }
-
 .weathersum {
     border: 2px solid white;
     width: 52%;
     font-size: 14%;
     margin-left: 4%;
     padding: 6%;
-
 }
 .wFont {
     font-size: 13px;
 }
-
 .article {
     border: 2px solid black;
     width: 100%;
@@ -104,7 +83,6 @@ body {
     padding: 12%;
     background-color: white;
 }
-
 .cc {
     display: inline-block;
     margin: 1rem 0 1rem 5rem;
@@ -115,24 +93,19 @@ body {
     border: 5px outset rgb(72, 72, 73);
     font-size: 1.2rem;
 }
-
 .cc p {
     text-align: center;
 }
-
 nav {
     background-color: rgb(50, 0, 70);
 }
-
 .navigation {
     list-style: none;
     text-align: center;
 }
-
 .navigation li {
     display: none;
 }
-
 .navigation a {
     display: block;
     color: #fff;
@@ -141,69 +114,48 @@ nav {
     text-decoration: none;
     background-color: rgb(50, 0, 70);
 }
-
 .navigation a:hover {
     color: rgb(50, 0, 70);
     background-color: rgb(50, 0, 70);
     font-weight: 700;
 }
-
 .navbar {
     font-size: 0px;
 }
-
 nav li {
-
     list-style: none;
     display: inline-block;
-
 }
-
 nav li a {
     display: inline-block;
-
-
 }
-
 .responsive li {
     display: block;
 }
-
 a {
-
     overflow: hidden;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
     /*after change to white, 6*/
     color: white;
-
-
 }
-
 main {
     text-align: center;
 }
-
 main h2 {
     margin-bottom: 2%;
     font-size: 25px;
-
 }
-
 .heroimage {
     position: absolute;
     height: 14%;
     width: 99%;
     margin-left: -211px;
 }
-
 aside {
     position: relative;
-
 }
-
-
 .townname {
     text-align: center;
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
@@ -212,47 +164,79 @@ aside {
     margin-top: -10px;
     padding: 10px;
 }
-
 .Summary {
     display: none;
 }
-
-.map{
-    display: none;
-}
-
-
-footer {
-    text-align: center;
-    padding-top: 5%;
-    background-color: #436d70;
-}
-.cinfo{
-    border: 1.5px dotted white;
-    width: 100%;
-     position: relative;
-     float: right;
-     color:white;
-     background-color: #436d70;
-}
-.footer p{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 8px;
-    font-size: 15px;  
-  }
-
 .footnav {
     background-color: rgb(50, 0, 70);
     color: white;
     padding: 4px;
 }
-
 .footnav li {
     list-style: none;
     display: inline-block;
 }
-
 .footnav li a:link {
     color: white;
 }
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 4%;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px groove white;
+}
+#gallery figcaption {
+    font-size: 15px;
+    text-align: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#gallery img[data-src] {
+    filter: blur(0.2em);
+}
+#gallery img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 300px;
+}
+#gallery img:hover{
+    box-shadow: 0 0 20px #000000b6;
+    transition: 0.4s;
+    filter: blur(0px);
+}
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    color: white;
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    color: white;
+}
+.footer-text {
+    margin: 1px;
+    color: white;
+    border: 1px;
+    padding: 10px;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+  }
+footer {
+    align-items: left;
+    background-color: #56636d;
+    color: white;
+    text-align: center;
+  }

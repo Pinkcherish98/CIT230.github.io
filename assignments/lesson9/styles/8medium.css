@@ -1,5 +1,5 @@
 /* Media Query for medium + screens */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) {
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;

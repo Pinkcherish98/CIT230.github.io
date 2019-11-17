@@ -19,7 +19,6 @@
         width: 21rem;
         display: inline-block;
         margin-left: 1%;
-
 	}
 	.logo {
         padding: 0 0 0 8px;
@@ -30,7 +29,6 @@
         width: 165px;
         box-shadow: 5px 5px 5px rgb(191, 225, 252);
         margin: 0px 50px 20px 20px;
-
 	}
 	.weathersum {
         border: 2px solid white;
@@ -38,9 +36,22 @@
         font-size: 12px;
         margin-left: 43;
         padding: 0%;
-
     }
     .wFont{
             font-size: 20px;
+    }
+    .cinfo{
+        border: 1.5px dotted white;
+        width: 39%;
+        margin-right: 10%;
+         position: relative;
+         float: right;
+         color:white;
+
+
+     }
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
