@@ -84,7 +84,7 @@ body {
   } */
   
   .homepage-images{
-    width: 250px;
+    max-width: 350px;
     height: auto;
     margin-top: 20px;
   }
