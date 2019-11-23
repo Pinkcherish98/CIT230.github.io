@@ -31,7 +31,7 @@ fetch(apiWeatherURL)
     const apiKey = "83c8bac9c65d0a5a7bfe57cfe98d6486";
 let cityID = document.getElementById("cityID").value;
 const unit = "imperial";
-const apiweatherURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityID}&units=${unit}&appid=${apiKey}`;
+const apiweatherURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityID}&units=imperial&appid=0b631fd8b3c62ec024dcf7737ccf66cf`;
 fetch(apiweatherURL)
     .then((response) => response.json())
     .then((currentWeather) => {
