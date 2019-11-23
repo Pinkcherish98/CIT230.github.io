@@ -39,6 +39,7 @@
     }
     .wFont{
             font-size: 20px;
+            font-family: -webkit-pictograph;
     }
     .cinfo{
         border: 1.5px dotted white;

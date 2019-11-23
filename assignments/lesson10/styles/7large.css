@@ -46,6 +46,18 @@
     .Summary {
         display: inline-block;
     }
+    table {
+        width:100%;
+        border-collapse: collapse;
+    }
+    th,td {
+        text-align: left;
+        padding: 8px;
+        border-collapse: collapse;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
     table, th, td{
         border: 1px solid black;
         padding: 5px;
@@ -132,7 +144,7 @@
     span {
         font-size: 25px;
     }
-    #day0, #day1, #day2, #day3, #day4, #day5, #forec{
+    #foreCast, #day0, #day1, #day2, #day3, #day4, #day5, #forec{
         background-color: white;
     }
     .article {
