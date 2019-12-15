@@ -28,11 +28,11 @@
 	.logo {
         padding: 0 0 0 8px;
         position: relative;
-        background-color: rgb(171, 209, 230);
-        border:grey 1px solid;
+        background-color:  #8d7f9c;
+        border:rgb(71, 0, 119) 1px solid;
         border-radius: 15px;
         width: 165px;
-        box-shadow: 5px 5px 5px rgb(191, 225, 252);
+        box-shadow: 5px 5px 5px #8c7e93;
         margin: 0px 50px 20px 20px;
 
 	}

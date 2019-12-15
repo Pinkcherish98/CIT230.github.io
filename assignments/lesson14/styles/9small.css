@@ -263,6 +263,8 @@ h2 {
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px double white;
+
 }
 #gallery figcaption {
     font-size: 15px;
