@@ -15,7 +15,7 @@ body {
 
 .parallax-home{
   /* The image used */
-  background-image: url("/assignments/lesson14/images/moon1.png");
+  background-image: url("https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Fmoon1.png?v=1576390144053");
   /* Set a specific height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -267,7 +267,7 @@ h2 {
 }
 .stormB {
       /* The image used */
-      background-image: url("/assignments/lesson9/images/sea.jpg");
+      background-image: url("https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Fmoon1.png?v=1576390144053");
       /* Set a specific height */
       height: 100%;
       /* Create the parallax scrolling effect */
