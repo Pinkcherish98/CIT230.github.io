@@ -16,16 +16,21 @@
 
     nav {
         display: block;
-        padding: 0%;
-        padding-top: 1%;
+        padding: 0;
+        padding-left: 15px;
+        margin-top: -10px;
+        background-color: #8c7e93;
     }
+
     .navigation {
         list-style: none;
         text-align: center;
     }
+
     .navigation li {
         display: inline-block;
     }
+
     .navigation a {
         display: block;
         color: #fff;
@@ -34,14 +39,26 @@
         text-decoration: none;
         background-color: #8c7e93;
     }
+
     .navigation a:hover {
         color: #8c7e93;
         background-color: #fff;
         font-weight: 700;
     }
+
     nav li {
         display: inline-block;
         font-size: 1rem;
+        list-style: none;
+    }
+   .navbar {
+        font-size: 0px;
+    }
+
+    nav li a {
+        display: inline-block;
+
+
     }
     button {
         display: none;
@@ -126,6 +143,17 @@
         position: relative;
         top: -30px;
     }
+    #banner {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        z-index: -1;
+
+
+    }
     .ht h1 {
         display: flex;
         justify-content: center;
@@ -174,19 +202,7 @@
     .cc p {
         text-align: center;
     }
-    nav {
-        background-color:#8c7e93;
-    }
-    .navbar {
-        font-size: 0px;
-    }
-    nav li {
-        list-style: none;
-        display: inline-block;
-    }
-    nav li a {
-        display: inline-block;
-    }
+
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -267,6 +283,17 @@
         padding: 2%;
         text-align: left;
         font-size: 40px;
+    }
+    #banner {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        z-index: -1;
+
+
     }
     .Summary {
         display: inline-block;

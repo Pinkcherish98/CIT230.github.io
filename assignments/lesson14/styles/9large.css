@@ -20,8 +20,10 @@
 
     nav {
         display: block;
-        padding: 0%;
-        padding-top: 1%;
+        padding: 0;
+        padding-left: 15px;
+        margin-top: -10px;
+        background-color: #8c7e93;
     }
 
     .navigation {
@@ -51,8 +53,17 @@
     nav li {
         display: inline-block;
         font-size: 1rem;
+        list-style: none;
+    }
+    .navbar {
+        font-size: 0px;
     }
 
+    nav li a {
+        display: inline-block;
+
+
+    }
     button {
         display: none;
     }
@@ -191,26 +202,7 @@
         text-align: center;
     }
 
-    nav {
-        background-color: #8c7e93;
-    }
 
-    .navbar {
-        font-size: 0px;
-    }
-
-    nav li {
-
-        list-style: none;
-        display: inline-block;
-
-    }
-
-    nav li a {
-        display: inline-block;
-
-
-    }
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -292,6 +284,17 @@
 
     }
 
+    #banner {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        z-index: -1;
+
+
+    }
     .townname {
         text-align: center;
         font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
