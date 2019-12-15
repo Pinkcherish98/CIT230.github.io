@@ -138,7 +138,7 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    text-shadow: 3px 2px rgb(43, 8, 59)
+    text-shadow: 3px 2px rgb(43, 8, 59);
 }
 
 .img1,
@@ -173,11 +173,11 @@ body {
 
 
 .article {
-    border: 2px solid black;
+    border: 2px solid #6f8d89;
     width: 100%;
     font-size: 11px;
     padding: 12%;
-    background-color: white;
+    background-color: #68808c;
 }
 
 

@@ -166,13 +166,13 @@
     }
 
     #day0, #day1, #day2, #day3, #day4, #day5, #forec{
-        background-color: white;
+        background-color: #4b8c97;
     }
     .article {
-        border: 2px solid white;
+        border: 2px solid #6f8d89;
         width: 75%;
         font-size: 12px;
-        background-color: white;
+        background-color: #8d7f9c;
         margin: 11%;
     }
 
