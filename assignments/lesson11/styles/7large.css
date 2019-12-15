@@ -4,13 +4,16 @@
         margin: 0;
         text-align: center;
     }
+
     .headertext {
         position: relative;
         float: none;
         display: inline-block;
         font-size: 1rem;
         margin-left: -18%;
+        color:white;
     }
+
     nav {
         display: block;
         padding: 0%;
