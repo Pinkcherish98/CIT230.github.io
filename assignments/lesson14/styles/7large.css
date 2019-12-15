@@ -1,0 +1,282 @@
+@media screen and (min-width:768px) {
+    header {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .headertext {
+        position: relative;
+        float: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin-left: -18%;
+        color:white;
+    }
+
+    nav {
+        display: block;
+        padding: 0%;
+        padding-top: 1%;
+    }
+    .navigation {
+        list-style: none;
+        text-align: center;
+    }
+    .navigation li {
+        display: inline-block;
+    }
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding: .75rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(50, 0, 70);
+    }
+    .navigation a:hover {
+        color: rgb(50, 0, 70);
+        background-color: #fff;
+        font-weight: 700;
+    }
+    nav li {
+        display: inline-block;
+        font-size: 1rem;
+    }
+    button {
+        display: none;
+    }
+    .Summary {
+        display: inline-block;
+    }
+    table {
+        width:100%;
+        border-collapse: collapse;
+    }
+    th,td {
+        text-align: left;
+        padding: 8px;
+        border-collapse: collapse;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    table, th, td{
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 50px;
+    }
+    ul {
+        margin-bottom: 3%;
+    }
+    a {
+        background-color: none;
+    }
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 8px;
+        font-size: 25px;
+    }
+    body {
+        background-color: rgb(170, 213, 248);
+        font-family: 'Merriweather Sans', cursive;
+        color: black;
+    }
+    #pancake {
+        background-color: rgb(255,206,99);
+        font-family: 'Merriweather Sans', cursive;
+        text-align: center;
+        margin: 1em;
+    }
+    .hidden{
+        display: none;
+    
+    }
+    .logo {
+        padding: 0 0 0 8px;
+        position: relative;
+        background-color: rgb(171, 209, 230);
+        border:grey 1px solid;
+        border-radius: 15px;
+        width: 165px;
+        box-shadow: 5px 5px 5px rgb(191, 225, 252);
+        margin: 0px 310px 62px 44px;
+    }
+    .wrapperhead {
+        background-color: rgb(170, 213, 248);
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-shadow: 3px 2px rgb(14, 5, 1)
+    }
+    .img1,
+    .img2 {
+        max-width: 60px;
+        height: 60px;
+    }
+    .sec2 {
+        margin: 30% 5% 5% 0%;
+    }
+    .Arcimg {
+        float: right;
+        position: relative;
+        top: -30px;
+    }
+    .ht h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .sh h2 {
+        font-size: 1.3rem;
+        color: #fa7a02;
+        font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    }
+    .weatheraside {
+        padding: 4%;
+    }
+    .weathersum {
+        border: 2px solid white;
+        width: 40%;
+        margin-left: 4%;
+        padding: 6%;
+    }
+    span {
+        font-size: 25px;
+    }
+    #foreCast, #day0, #day1, #day2, #day3, #day4, #day5, #forec{
+        background-color: white;
+    }
+    .article {
+        border: 2px solid white;
+        width: 75%;
+        font-size: 12px;
+        background-color: white;
+        margin: 11%;
+    }
+    .cc {
+        display: inline-block;
+        margin: 1rem 0 1rem 5rem;
+        padding: 1.0rem;
+        vertical-align: middle;
+        color: #FF5A09;
+        background-color: rgb(50, 0, 70);
+        border: 5px outset rgb(72, 72, 73);
+        font-size: 1.2rem;
+    }
+    .cc p {
+        text-align: center;
+    }
+    nav {
+        background-color: rgb(50, 0, 70);
+    }
+    .navbar {
+        font-size: 0px;
+    }
+    nav li {
+        list-style: none;
+        display: inline-block;
+    }
+    nav li a {
+        display: inline-block;
+    }
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    #gallery img[data-src] {
+        filter: blur(0.2em);
+    }
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #gallery figcaption {
+        font-size: 30px;
+        text-align: center;
+        color: blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    a {
+        overflow: hidden;
+        text-align: center;
+        padding: 14px 12px;
+        text-decoration: none;
+        /*after change to white, 6*/
+        color: white;
+        font-size: 1rem;
+    }
+    /*
+        .hamburger {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #393939;
+            border-color: #393939;
+        }
+        
+        .hamburger img {
+            max-width: 6%;
+            background-color: #393939;
+        }
+        */
+    main {
+        text-align: center;
+    }
+    main h2 {
+        margin-bottom: 2%;
+        font-size: 70px;
+    }
+    .heroimage {
+        position: absolute;
+        margin-left: -40%;
+        width:77%;
+        height: 84%;
+    }
+    aside {
+        position: relative;
+    }
+    .townname {
+        text-align: center;
+        font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+        background-color: #868282;
+        font-size: 20px;
+        margin-top: -10px;
+        padding: 10px;
+    }
+    h3 {
+        text-align: center;
+        font-size: 60px;
+    }
+    h4 {
+        padding: 2%;
+        text-align: left;
+        font-size: 40px;
+    }
+    .Summary {
+        display: inline-block;
+    }
+    .footnav {
+        background-color: #56636d;
+        color: white;
+        padding: 4px;
+    }
+    .footnav li {
+        list-style: none;
+        display: inline-block;
+    }
+    .footnav li a:link {
+        color: white;
+    }
+}
