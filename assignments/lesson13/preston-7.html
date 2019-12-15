@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Blue Moon's Weather</title>
+    <meta name="description"
+        content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
+    <link rel="stylesheet" href="styles/7small.css">
+    <link rel="stylesheet" href="styles/7normalize.css">
+    <link rel="stylesheet" href="styles/7medium.css">
+    <link rel="stylesheet" href="styles/7large.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <section id="pancake" class="hidden">
+            <p>Saturday = Preston Pancake in the Park! 9:00 a.m. Saturady at the park.</p>
+
+        </section>
+        <a href="index.html"><img class="logo"
+            src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Ficonfinder_4_1208027%20(1).png?v=1570329458166"
+            alt="logo"></a>
+        <div class="headertext">
+            <h1>Today's Weather</h1>
+            <div class="subheading">The most accurate weather source in the county</div>
+        </div>
+
+        <nav>
+
+            <ul class="navigation">
+                <button type="button" onclick="toggleMenu()">&#9776; Menu</button>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="preston-10.html" title="Preston">Preston</a></li>
+                <li><a href="sodaspring.html" title="Soda Springs">Soda Springs</a></li>
+                <li><a href="fishhaven.html" title="Fish Haven">Fish Haven</a></li>
+                <li><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
+                <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <br>
+        <h2>Preston, Idaho</h2>
+        <section>
+            <div><img class="heroimage"
+                    src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-original.jpeg?v=1570849407051"
+                    sizes="100w"
+                    srcset="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-small.jpg?v=1570849410932 625w, https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-L.jpg?v=1570849401532 620w"
+                    alt="franklin-original Image">
+            </div>
+        </section>
+
+        <aside class="weatheraside">
+
+
+            <body>
+                <section class="weathersum">
+                    <b>
+                        <h3>Weather Summary</h3>
+                    </b>
+                    <section class = "wFont">
+                        <div>
+                            <span>Current Tep: </span>
+                            <span id="currentTemp"></span>
+                        </div>
+
+                        <div>
+                            <span>Wind Speed: </span>
+                            <span id="windSpeed"></span>
+                        </div>
+                        <div>
+                            <span>Windchill: </span>
+                            <span id="windChill"></span>
+                        </div>
+
+                    </section>
+
+        </aside>
+
+        </section>
+
+
+
+        <section class="sec2">
+            <div class="Summary">
+                <h3>High Temperature Forecast</h3>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th id="day1"></th>
+                        <th id="day2"></th>
+                        <th id="day3"></th>
+                        <th id="day4"></th>
+                        <th id="day5"></th>
+                    </tr>
+                    <tr>
+                        <td>Forecast</td>
+                        <td id="data1">60&deg;</td>
+                        <td id="data2">68&deg;</td>
+                        <td id="data3">70&deg;</td>
+                        <td id="data4">72&deg;</td>
+                        <td id="data5">74&deg;</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="sec3">
+
+            <body>
+                <div class="article">
+            </body>
+            <img src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Farticle.jpg?v=1570849395589"
+                alt="Article Image" class="Arcimg">
+            <div class="Arc">
+                <h3>Article</h3>
+                <p>Lorem ipsum dolor sit amet, saepe urbanitas conceptam his eu, ut tantas iracundia deterruisset usu.
+                    Mea id
+                    erat verear persequeris, latine ceteros reprehendunt pri ea, mel nisl labore sanctus ex. Duo viderer
+                    impedit
+                    prodesset et. Vim habeo semper te. Illud molestie qualisque ad mel, nam odio vidit virtute id. Nam
+                    ea primis
+                    omnesque, nec an solum eirmod, cu sed paulo gloriatur. Prima nullam ex sea. Doming insolens ad sed,
+                    id
+                    deleniti delicata vim. Dicit ridens ex duo, usu ut odio luptatum.</p>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <b>
+            <h3>contact information</h3>
+        </b>
+        <div class="cinfo">
+            <h4>Blue Moon's Weather</h4>
+            <p>Phone number: (208)-123-4567</p> 
+            <p>Email: Bluemoonweather@gmail.com</p> 
+            <p>Address: 123 W 3TH S. Rexburg ID 83440</p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571848097486!5m2!1sen!2sus"
+            width="300" height="200" style="border:0;"></iframe>
+                <div class="footer">
+        
+        
+                    <p class='footer-text'> &star; Jenny Min | BYU-Idaho | CIT 230 &copy; <span id="currentDate"> 
+                        </span></p>
+                </div>
+
+        </footer>
+
+
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/forecast.js"></script>
+        <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>
