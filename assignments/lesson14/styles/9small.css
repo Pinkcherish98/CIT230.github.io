@@ -356,5 +356,14 @@ form div {
     align-items: left;
     background-color: #4b8c97;
     color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
+  .leftcol, .rightcol{
+    max-width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
  

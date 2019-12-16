@@ -323,7 +323,16 @@
         color: white;
         padding: 4px;
         font-size: 20px;
-    }
+        display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftcol, .rightcol{
+    max-width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
 
     .footnav li {
         list-style: none;
@@ -345,5 +354,23 @@
         font-size: 25px;
     
     }
+    .socialmedia {
+        box-shadow: 8px 8px 8px lightcoral;
+        padding: 25px;
+        float:right;
+      }
+      .zoomin img{
+        width: 75px;
+        height:75px;
+        -webkit-trnsition: all 2s ease;
+        -moz-trnasition: all 2s ease;
+        -ms-transition: all 2s ease;
+        transition: all 2s ease;
+      }
+      .zoomin img:hover{
+        width:100px;
+        height: 100px;
+        box-shadow: 8px 8px 8px lightcoral;
+      }
 
 }

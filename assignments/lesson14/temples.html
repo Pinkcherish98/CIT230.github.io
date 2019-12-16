@@ -4,14 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Hotel Del Luna</title>
+    <link rel="shortcut icon" href="/lesson14/images/favicon.ico">
+    <title>Temple Inn & Suites</title>
     <meta name="description"
         content="A website that predicts weather conditions in the Preston, Soda springs, and Fish Haven areas.">
-    <link rel="stylesheet" href="styles/7small.css">
-    <link rel="stylesheet" href="styles/7normalize.css">
-    <link rel="stylesheet" href="styles/7medium.css">
-    <link rel="stylesheet" href="styles/7large.css">
+
+    <link rel="stylesheet" href="styles/9small.css">
+    <link rel="stylesheet" href="styles/9normalize.css">
+    <link rel="stylesheet" href="styles/9medium.css">
+    <link rel="stylesheet" href="styles/9large.css">
+    <link rel="stylesheet" href="styles/stlyem.css">
+    <link rel="stylesheet" href="styles/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 
@@ -19,139 +22,318 @@
 
 <body>
     <header>
+        <section id="pancake" class="hidden">
+            <p>Saturday = If you request chocolate cake will be serve to your room.</p>
+
         </section>
+        <header>
         <a href="index.html"><img class="logo"
             src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2FexternalFile.jpg?v=1576390165246"
             alt="logo"></a>
         <div class="headertext">
-            <h1>Today's Weather</h1>
-            <div class="subheading">The most accurate weather source in the county</div>
+            <h1>Hotel Del Luna</h1>
+        
+            <div class="subheading">The Best Quaulity Hotel In the World</div>
         </div>
-
         <nav>
 
             <ul class="navigation">
                 <button type="button" onclick="toggleMenu()">&#9776; Menu</button>
                 <li><a href="index.html" title="About Del Luna">About Del Luna</a></li>
                 <li><a href="temples.html" title="Temples">Temples</a></li>
-                <li><a href="dining.html" title="Dining">Dining</a></li>
-                <li><a href="specialoffer.html" title="Special Offer">Special Offer</a></li>
+                <li><a href="dining.html" title="Dining">Services</a></li>
                 <li><a href="reservation.html" title="Reservation">Reservation</a></li>
                 <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
             </ul>
         </nav>
         <img id="banner" src="https://cdn.glitch.com/97522a9d-7cd2-46e9-ac69-6f82629379d1%2Fpurple-sky-dusk-shooting-star.jpg?v=1576391658441" alt="rafters">
-    </header>
+    </div>
+</header>
 
 
-    <main>
-        <input type="hidden" id="cityID" value="5604473">
-        <br>
-        <h2>Preston, Idaho</h2>
-        <section id="pancake" class="hidden">
-            <p>Saturday = Preston pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
-        </section>
-        <section>
-            <div><img class="heroimage"
-                    src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-original.jpeg?v=1570849407051"
-                    sizes="100w"
-                    srcset="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-small.jpg?v=1570849410932 625w, https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Ffranklin-L.jpg?v=1570849401532 620w"
-                    alt="franklin-original Image">
+<main>
+    <section class ="header-img">
+        <div class ="header-img-text-wrap">
+            <h1>
+                Featured Temples
+            </h1>
+        </div>
+    </section>
+    
+    <div class="main-content">            
+        <section class = "temple-container" id = "barranquilla">
+            <h2>
+                Barranquilla Colombia Temple
+            </h2>
+            <div class ="temple-info">
+                <div class = "first-column">
+                    <img src="images/San_Diego_LDS_Temple,_twilight.jpg" alt="San Diego-Temple">
+                    <div class = current-weather>
+                        <h3>
+                            Current Weather
+                        </h3>
+                        <!-- <img id ="barranquilla-weather-icon" src="images/weather-icon/01n.png">
+                        <p id="barranquilla-current-weather">Currently: Snow</p>
+                        <p id="barranquilla-current-temp">Temperature: 30</p>
+                        <p id="barranquilla-high">High: 20</p>
+                        <p id="barranquilla-low">Low: 10</p> -->
+                        <img id ="Sandi-weather-icon">
+                        <p id="Sandi-current-weather"></p>
+                        <p id="Sandi-current-temp"></p>
+                        <p id="Sandi-high"></p>
+                        <p id="Sandi-low"></p>
+                    </div>
+                </div>
+                
+                <div class = "temple-data">
+                    <h3>
+                        Address
+                    </h3>
+                    <div class = "Sandi-address"></div>
+                    <h3>
+                        Phone Number
+                    </h3>
+                    <div class = "Sandi-phone"></div>
+                    <h3>
+                        Service
+                    </h3>
+                    <div class = "Sandi-service"></div>
+                    <h3>
+                        Ordinance Schedule
+                    </h3>
+                    <h4>
+                        Baptism
+                    </h4>
+                    <ul class ="Sandi-baptism">
+                        
+                    </ul>
+                    <h4>
+                        Endownment
+                    </h4>
+                    <ul class = "Sandi-endownment">
+                      
+                    </ul>
+                    <h4>
+                        Sealing
+                    </h4>
+                    <ul class = "Sandi-sealing">
+                        
+                    </ul>
+                    <h3>
+                        Temple Closure
+                    </h3>
+                    <ul class = "Sandi-closure">
+                        
+                    </ul>
+                    <h3>
+                        Temple History
+                    </h3>
+                    <div class = "Sandi-history"></div>
+                </div>
             </div>
         </section>
-
-        <aside class="weatheraside">
-
-
-            <body>
-                <section class="weathersum">
-                    <b>
-                        <h3>Weather Summary</h3>
-                    </b>
-                    <section class="wFont">
-                        <div>
-                            <p>Current Tep: 
-                            <span id="currentTemp"></span> | <span id="currentDesc"></span></p>
-                        </div>
-                        <div>
-                            <p>High: <span id="high"></span></p>
-                        </div>
-                        <div>
-                            <p>Wind Speed: 
-                            <span id="windSpeed"></span></p>
-                        </div>
-                        <div>
-                            <p>Windchill: 
-                            <span id="windChill"></span></p>
-                        </div>
-                        <div>
-                            <p>Humidity: <span id="humidity"></span></p>
-                        </div>
-
-                    </section>
-
-        </aside>
-
-        </section>
-<br>
-
-
-        <section class="sec2">
-            <div class="Summary">
-                <h3>5-Day Forecast</h3>
-                <table>
-                    <tr>
-                        <th>Day</th>
-                        <th id="day1"></th>
-                        <th id="day2"></th>
-                        <th id="day3"></th>
-                        <th id="day4"></th>
-                        <th id="day5"></th>
-                    </tr>
-                    <tr>
-                            <td id="foreCast"><strong>Forecast</strong></td>
-                            <td> <img id="forecastIcon1">
-                                <p id="temp1"></p>
-                            </td>
-                            <td> <img id="forecastIcon2">
-                                <p id="temp2"></p>
-                            </td>
-                            <td> <img id="forecastIcon3">
-                                <p id="temp3"></p>
-                            </td>
-                            <td> <img id="forecastIcon4">
-                                <p id="temp4"></p>
-                            </td>
-                            <td> <img id="forecastIcon5">
-                                <p id="temp5"></p>
-                            </td>
-                    </tr>
-                </table>
+        <section class = "temple-container" id = "Sapporo">
+            <h2>
+                Laie Hawaii Temple
+            </h2>
+            <div class ="temple-info">
+                <div class = "first-column">
+                    <img src="images/Sapporo-Japan-Temple-night-shot2016.jpg" alt="Sapporo-Temple">
+                    <div class = current-weather>
+                        <h3>
+                            Current Weather
+                        </h3>
+                        <img id ="Sap-icon">
+                        <p id="Sap-weather"></p>
+                        <p id="Sap-temp"></p>
+                        <p id="Sap-high"></p>
+                        <p id="Sap-low"></p>
+                    </div>
+                </div>
+                <div class = "temple-data">
+                    <h3>
+                        Address
+                    </h3>
+                    <div class = "laie-hawaii-address"></div>
+                    <h3>
+                        Phone Number
+                    </h3>
+                    <div class = "laie-hawaii-phone"></div>
+                    <h3>
+                        Service
+                    </h3>
+                    <div class = "laie-hawaii-service"></div>
+                    <h3>
+                        Ordinance Schedule
+                    </h3>
+                    <h4>
+                        Baptism
+                    </h4>
+                    <ul class ="laie-hawaii-baptism">
+                        
+                    </ul>
+                    <h4>
+                        Endownment
+                    </h4>
+                    <ul class = "laie-hawaii-endownment">
+                      
+                    </ul>
+                    <h4>
+                        Sealing
+                    </h4>
+                    <ul class = "laie-hawaii-sealing">
+                        
+                    </ul>
+                    <h3>
+                        Temple Closure
+                    </h3>
+                    <ul class = "laie-hawaii-closure">
+                        
+                    </ul>
+                    <h3>
+                        Temple History
+                    </h3>
+                    <div class = "laie-hawaii-history"></div>
+                </div>
             </div>
+            
         </section>
-        <section class="sec3">
-
-            <body>
-                <div class="article">
-            </body>
-            <img src="https://cdn.glitch.com/ad9d1423-f527-47ba-86f7-302f67a1c26a%2Farticle.jpg?v=1570849395589"
-                alt="Article Image" class="Arcimg">
-            <div class="Arc">
-                <h3>Article</h3>
-                <p>Lorem ipsum dolor sit amet, saepe urbanitas conceptam his eu, ut tantas iracundia deterruisset usu.
-                    Mea id
-                    erat verear persequeris, latine ceteros reprehendunt pri ea, mel nisl labore sanctus ex. Duo viderer
-                    impedit
-                    prodesset et. Vim habeo semper te. Illud molestie qualisque ad mel, nam odio vidit virtute id. Nam
-                    ea primis
-                    omnesque, nec an solum eirmod, cu sed paulo gloriatur. Prima nullam ex sea. Doming insolens ad sed,
-                    id
-                    deleniti delicata vim. Dicit ridens ex duo, usu ut odio luptatum.</p>
+        <section class = "temple-container" id = "logan">
+            <h2>
+                Logan Utah Temple
+            </h2>
+            <div class ="temple-info">
+                <div class = "first-column">
+                    <img src="images/temples/Logan-Utah-Temple.jpg" alt="Logan-Utah-Temple">
+                    <div class = current-weather>
+                        <h3>
+                            Current Weather
+                        </h3>
+                        <img id ="logan-weather-icon">
+                        <p id="logan-current-weather"></p>
+                        <p id="logan-current-temp"></p>
+                        <p id="logan-high"></p>
+                        <p id="logan-low"></p>
+                    </div>
+                </div>
+                
+                <div class = "temple-data">
+                    <h3>
+                        Address
+                    </h3>
+                    <div class = "logan-utah-address"></div>
+                    <h3>
+                        Phone Number
+                    </h3>
+                    <div class = "logan-utah-phone"></div>
+                    <h3>
+                        Service
+                    </h3>
+                    <div class = "logan-utah-service"></div>
+                    <h3>
+                        Ordinance Schedule
+                    </h3>
+                    <h4>
+                        Baptism
+                    </h4>
+                    <ul class ="logan-utah-baptism">
+                        
+                    </ul>
+                    <h4>
+                        Endownment
+                    </h4>
+                    <ul class = "logan-utah-endownment">
+                    
+                    </ul>
+                    <h4>
+                        Sealing
+                    </h4>
+                    <ul class = "logan-utah-sealing">
+                        
+                    </ul>
+                    <h3>
+                        Temple Closure
+                    </h3>
+                    <ul class = "logan-utah-closure">
+                        
+                    </ul>
+                    <h3>
+                        Temple History
+                    </h3>
+                    <div class = "logan-utah-history"></div>
+                </div>
             </div>
-
-            </div>
+            
         </section>
-    </main>
+        <section class = "temple-container" id = "rome">
+            <h2>
+                Rome Italy Temple
+            </h2>
+            <div class ="temple-info">
+                <div class = "first-column">
+                    <img src="images/temples/Rome-Italy-Temple.jpg" alt="Rome-Italy-Temple">
+                    <div class = current-weather>
+                        <h3>
+                            Current Weather
+                        </h3>
+                        <img id ="rome-weather-icon">
+                        <p id="rome-current-weather"></p>
+                        <p id="rome-current-temp"></p>
+                        <p id="rome-high"></p>
+                        <p id="rome-low"></p>
+                    </div>
+                </div>
+                <div class = "temple-data">
+                    <h3>
+                        Address
+                    </h3>
+                    <div class = "rome-italy-address"></div>
+                    <h3>
+                        Phone Number
+                    </h3>
+                    <div class = "rome-italy-phone"></div>
+                    <h3>
+                        Service
+                    </h3>
+                    <div class = "rome-italy-service"></div>
+                    <h3>
+                        Ordinance Schedule
+                    </h3>
+                    <h4>
+                        Baptism
+                    </h4>
+                    <ul class ="rome-italy-baptism">
+                        
+                    </ul>
+                    <h4>
+                        Endownment
+                    </h4>
+                    <ul class = "rome-italy-endownment">
+                    
+                    </ul>
+                    <h4>
+                        Sealing
+                    </h4>
+                    <ul class = "rome-italy-sealing">
+                        
+                    </ul>
+                    <h3>
+                        Temple Closure
+                    </h3>
+                    <ul class = "rome-italy-closure">
+                    </ul>
+
+                    <h3>
+                        Temple History
+                    </h3>
+                    <div class = "rome-italy-history"></div>
+                </div>
+            </div>
+            
+        </section>
+        
+    </div>
+</main>
     <footer>
         <b>
             <h3>contact information</h3>
