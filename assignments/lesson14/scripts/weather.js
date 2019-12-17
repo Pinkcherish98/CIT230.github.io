@@ -35,7 +35,7 @@ function weatherData(cityCode, cityName) {
     });
     
 };
-weatherData("3689147", "barranquilla");
-weatherData("5850027", "laie");
-weatherData("5777544", "logan");
-weatherData("6539761", "rome");
+weatherData("3689147", "San-diego");
+weatherData("5850027", "Sapporo");
+weatherData("5777544", "korea");
+weatherData("6539761", "dallas");
