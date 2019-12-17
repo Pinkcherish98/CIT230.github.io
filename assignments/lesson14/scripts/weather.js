@@ -36,6 +36,6 @@ function weatherData(cityCode, cityName) {
     
 };
 weatherData("3689147", "San-diego");
-weatherData("5850027", "Sapporo");
+weatherData("5850028", "Sapporo");
 weatherData("5777544", "korea");
 weatherData("6539761", "dallas");

@@ -1,6 +1,5 @@
 /* ======================== FONTS ======================== */
 
-@import url('https://fonts.googleapis.com/css?family=Barlow:500,700,800|Montserrat:500,600,800&display=swap');
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Barlow', sans-serif; */
@@ -8,8 +7,11 @@ font-family: 'Barlow', sans-serif; */
 
 /* ======================== HEADER & GENERAL STYLING ======================== */
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Merriweather Sans",cursive;
     color: #212121;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 8px;
 }
 
 body{
@@ -251,7 +253,7 @@ body input:checked ~ nav > ul > li {
 
 .main-content{
     font-family: 'Barlow', sans-serif;
-    background-color: #f3f3f3;
+    background-color: #c8a2c8;
     padding: 40px 10px;
 }
 
@@ -500,7 +502,7 @@ form{
 
 form p{
     margin: 3px 0;
-    color: #909090
+    color: white;
 }
 
 form label{
@@ -542,8 +544,8 @@ form input[type="submit"], form input[type="button"]{
 
 form input[type="submit"]:hover, form input[type="submit"]:active, form input[type="button"]:hover, form input[type="button"]:active{
     color: white;
-    background-color: #D3A839;
-    border-color: #D3A839;
+    background-color: purple;
+    border-color: purple;
     transition: .2s ease-in-out;
 }
 
@@ -619,7 +621,8 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 }
 
 .header-img h1{
-    font-size: 3.2em;
+    font-size: 2.5em;
+    border-bottom: 5px double white;
     text-transform: uppercase;
     letter-spacing: 2pt;
     margin-top: 0px;
@@ -637,18 +640,22 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
     font-size: 2em;
     margin: 0;
     padding: 40px 50px;
-    background-color: #212121;
-    color: #D3A839;
+    background-color: teal;
+    color: white;
 }
 .temple-container h3{
     font-size: 1.7em;
     margin-bottom: 10px;
     margin-top: 15px;
+    text-align: center;
+    color:black;
 }
 
 .temple-container h4{
     margin-bottom: 0;
     margin-top: 5px;
+    color:black;
+    text-align: center;
 }
 
 .temple-container ul{
@@ -663,6 +670,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
     display: grid;
     grid-template-columns: 1fr;
     padding: 40px 50px;
+    color: black;
 
 }
 
@@ -678,7 +686,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
     margin-bottom: 30px;
 }
 .current-weather{
-    background-color: #212121;
+    background-color: #4b8c97;
     color: white;
     padding: 20px;
     margin-bottom: 30px;
