@@ -6,10 +6,10 @@ function templeData() {
             templeList = templeObject.templesList;
             // console.log(templeList);
             
-            getTempleData(0, "barranquilla-colombia");
-            getTempleData(1, "laie-hawaii");
-            getTempleData(2, "logan-utah");
-            getTempleData(3, "rome-italy");
+            getTempleData(0, "San-diego");
+            getTempleData(1, "Sapporo");
+            getTempleData(2, "korea");
+            getTempleData(3, "dallas");
 
             
             function getTempleData(i, templeName){
