@@ -366,6 +366,10 @@ form div {
     z-index: -1;
 
  }
+ #link {
+     color:black;
+ }
+
   footer {
     align-items: left;
     background-color: #4b8c97;

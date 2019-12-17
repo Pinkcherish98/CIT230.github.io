@@ -321,6 +321,38 @@
         display: inline-block;
 
     }
+    #Frow, #Frow-Left{
+        display:flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      #Frow-Left {
+        background-color: darksalmon;
+        color: #436d70;
+      }
+      #Last{
+        text-align: center;
+      }
+      #img1, #img2{
+        width: 450ox;
+        box-shadow: 8px 8px 8px lightcoral;
+        border-radius: 15px;
+      }
+      #info {
+        color: #495d60;
+        font-size: 20px;
+        padding: 10px;
+      }
+      img{
+        max-width: 100%;
+      }
+      #link {
+        color:rosybrown;
+    }
+    #link:hover {
+        color: rosybrown;
+    }
 
     .footnav {
         background-color: #4b8c97;
